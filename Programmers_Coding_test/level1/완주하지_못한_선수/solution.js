@@ -1,4 +1,7 @@
 function solution(participant, completion) {
-    let answer = '';
+    let answer = 'test';
     return answer;
 }
+
+module.exports = solution;
+
