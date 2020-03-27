@@ -1,4 +1,4 @@
-const solution = function (participant, completion) {
+const solution = (participant, completion) => {
     participant.sort();
     completion.sort();
     let i = 0;

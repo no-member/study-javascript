@@ -11,3 +11,7 @@ test('[marina, josipa, nikola, vinko, filipa],[josipa, filipa, marina, nikola]�
         .toEqual('vinko')
 });
 
+test('[mislav, stanko, mislav, ana],[mislav, stanko, mislav, ana]를 넣었을 때 mislav가 나오도록 함', () => {
+    expect(solution(['mislav', 'stanko', 'mislav', 'ana'],
+        ['mislav', 'stanko', 'ana'])).toEqual('mislav')
+})
