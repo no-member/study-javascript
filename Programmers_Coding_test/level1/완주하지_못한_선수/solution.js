@@ -1,5 +1,5 @@
 function solution(participant, completion) {
-    let answer = 'test';
+    let answer = 'leo';
     return answer;
 }
 
