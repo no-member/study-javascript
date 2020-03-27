@@ -1,9 +1,6 @@
-test("1 is 1", () => {
-    expect(1).toEqual(1);
-});
-
 const solution = require('./solution');
 
-test("solution() return test", () => {
-    expect(solution()).toEqual('test');
+test('[leo, kiki, eden],[eden, kiki]을 넣었을 때 leo가 나오도록 함', () => {
+    expect(solution(['leo', 'kiki', 'eden'], ['eden', 'kiki'])
+        ).toEqual('leo');
 });
