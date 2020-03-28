@@ -1,5 +1,5 @@
 const solution = function (answer) {
-    return 'test';
+    return [1];
 };
 
 
