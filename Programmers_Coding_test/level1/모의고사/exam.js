@@ -8,26 +8,35 @@ const solution = function (answers) {
 
     for (let i = 0; i < answers.length; i++) {
         const answer = answers[i];
-        if (firstAnswer[i] === answer) {
+        if (firstAnswer[i % 5] === answer) {
             firstAnswerCount++;
         }
-        if (secondAnswer[i] === answer) {
+        if (secondAnswer[i % 8] === answer) {
             secondAnswerCount++;
         }
-        if (thirdAnswer[i] === answer) {
+        if (thirdAnswer[i % 10] === answer) {
             thirdAnswerCount++
         }
     }
 
     const answerCountList = [firstAnswerCount, secondAnswerCount, thirdAnswerCount];
     const max = Math.max(...answerCountList);
-
     let answer = [];
     for (let i = 0; i < answerCountList.length; i++){
        if (answerCountList[i] === max ){
             answer.push(i+1);
        }
     }
+    // let answer = [];
+    // if (firstAnswerCount === max) {
+    //     answer.push(1);
+    // }
+    // if (secondAnswerCount === max) {
+    //     answer.push(2);
+    // }
+    // if (thirdAnswerCount === max) {
+    //     answer.push(3);
+    // }
     return answer;
 };
 
