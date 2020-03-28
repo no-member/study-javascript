@@ -1,4 +1,4 @@
-const solution = function () {
+const solution = function (answer) {
     return 'test';
 };
 
