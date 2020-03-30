@@ -1,10 +1,7 @@
 const repeatString = function(repeat, string) {
-    let answer;
-    if (repeat === 1){
-        answer = '*';
-    }
-    if (repeat === 2) {
-        answer = '**';
+    let answer = '';
+    for (let i = 0; i < repeat; i++) {
+       answer += string;
     }
     return answer;
 };
