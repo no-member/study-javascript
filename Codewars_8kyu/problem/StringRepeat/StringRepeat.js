@@ -1,7 +1,5 @@
 const repeatString = function(repeat, string) {
-
     let answer = '*';
-
     return answer;
 };
 
