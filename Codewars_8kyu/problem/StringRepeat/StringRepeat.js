@@ -1,6 +1,6 @@
 const repeatString = function(repeat, string) {
 
-    let answer = '';
+    let answer = '*';
 
     return answer;
 };
