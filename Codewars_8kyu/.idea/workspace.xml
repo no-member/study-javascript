@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars_8kyu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem/StringRepeat/StringRepeatTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem/StringRepeat/quiz.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zqf2A1TyQLIGbKqNATIYfxYkVq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Jest.1 is 1 (2)">
+    <configuration name="1 is 1 (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.Test.js" />
+      <test-names>
+        <test-name value="1 is 1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="1 is 1 (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.test.js" />
+      <test-names>
+        <test-name value="1 is 1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="StringRepeatTest.js (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/problem/StringRepeat/StringRepeatTest.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StringRepeatTest.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/StringRepeat/StringRepeatTest.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.1 is 1 (2)" />
+        <item itemvalue="Jest.1 is 1 (1)" />
+        <item itemvalue="Jest.StringRepeatTest.js (1)" />
+        <item itemvalue="Jest.StringRepeatTest.js" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="" />
+      <created>1585571334528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585571334528</updated>
+      <workItem from="1585571336195" duration="537000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="135" key="#StringRepeatTest.js" timestamp="1585571865572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="135" key="#StringRepeatTest.js/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571865572" />
+    <state x="383" y="135" key="#StringRepeatTest.js_(1)" timestamp="1585571915910">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="135" key="#StringRepeatTest.js_(1)/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571915910" />
+    <state width="1396" height="248" key="GridCell.Tab.0.bottom" timestamp="1585572008871">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585572008871" />
+    <state width="1396" height="248" key="GridCell.Tab.0.center" timestamp="1585572008868">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="248" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585572008868" />
+    <state width="1396" height="248" key="GridCell.Tab.0.left" timestamp="1585572008867">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="248" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585572008867" />
+    <state width="1396" height="248" key="GridCell.Tab.0.right" timestamp="1585572008870">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="248" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585572008870" />
+    <state width="1396" height="309" key="GridCell.Tab.1.bottom" timestamp="1585571926719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.1.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926719" />
+    <state width="1396" height="309" key="GridCell.Tab.1.center" timestamp="1585571926717">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.1.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926717" />
+    <state width="1396" height="309" key="GridCell.Tab.1.left" timestamp="1585571926716">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.1.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926716" />
+    <state width="1396" height="309" key="GridCell.Tab.1.right" timestamp="1585571926718">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926718" />
+    <state width="1396" height="309" key="GridCell.Tab.2.bottom" timestamp="1585571926722">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.2.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926722" />
+    <state width="1396" height="309" key="GridCell.Tab.2.center" timestamp="1585571926720">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.2.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926720" />
+    <state width="1396" height="309" key="GridCell.Tab.2.left" timestamp="1585571926719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.2.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926719" />
+    <state width="1396" height="309" key="GridCell.Tab.2.right" timestamp="1585571926721">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="309" key="GridCell.Tab.2.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571926721" />
+    <state x="7" y="177" key="new project wizard" timestamp="1585571837932">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="7" y="177" key="new project wizard/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571837932" />
+  </component>
+</project>
