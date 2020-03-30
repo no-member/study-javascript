@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.js" beforeDir="false" afterPath="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/problem/StringRepeat/StringRepeat.test.js" afterDir="false" />
     </list>
@@ -128,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585571334528</updated>
-      <workItem from="1585571336195" duration="1839000" />
+      <workItem from="1585571336195" duration="2131000" />
     </task>
     <servers />
   </component>
@@ -147,26 +146,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="383" y="135" key="#StringRepeatTest.js_(1)/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571915910" />
-    <state width="1396" height="248" key="GridCell.Tab.0.bottom" timestamp="1585573410964">
+    <state width="1396" height="248" key="GridCell.Tab.0.bottom" timestamp="1585573638603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326648" />
-    <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573410964" />
-    <state width="1396" height="248" key="GridCell.Tab.0.center" timestamp="1585573410962">
+    <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573638603" />
+    <state width="1396" height="248" key="GridCell.Tab.0.center" timestamp="1585573638601">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1396" height="248" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326645" />
-    <state width="1396" height="248" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573410962" />
-    <state width="1396" height="248" key="GridCell.Tab.0.left" timestamp="1585573410957">
+    <state width="1396" height="248" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573638601" />
+    <state width="1396" height="248" key="GridCell.Tab.0.left" timestamp="1585573638600">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1396" height="248" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326644" />
-    <state width="1396" height="248" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573410957" />
-    <state width="1396" height="248" key="GridCell.Tab.0.right" timestamp="1585573410963">
+    <state width="1396" height="248" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573638600" />
+    <state width="1396" height="248" key="GridCell.Tab.0.right" timestamp="1585573638602">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1396" height="248" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326647" />
-    <state width="1396" height="248" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573410963" />
+    <state width="1396" height="248" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585573638602" />
     <state width="1396" height="309" key="GridCell.Tab.1.bottom" timestamp="1585571926719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
