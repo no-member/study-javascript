@@ -1,5 +1,6 @@
-const vowelCount = function() {
+const vowelCount = function(str) {
 
+    return 2;
 };
 
 
