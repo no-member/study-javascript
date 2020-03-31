@@ -12,3 +12,7 @@ test('vowelCount("ahii") is 3', () => {
 test('vowelCount("abracadabra") is 5', () => {
     expect(vowelCount("abracadabra")).toBe(5);
 });
+
+test('vowelCount("Abracadabra") is 5', () => {
+    expect(vowelCount("Abracadabra")).toBe(5);
+});
