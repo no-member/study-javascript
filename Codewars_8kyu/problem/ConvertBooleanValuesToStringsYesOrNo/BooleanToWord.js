@@ -1,5 +1,5 @@
-const boolToWord = function(){
-
+const boolToWord = function(bool){
+    return '';
 };
 
 
