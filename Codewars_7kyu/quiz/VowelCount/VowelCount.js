@@ -12,7 +12,7 @@ const vowelCount = function (str) {
 };
 
 const isVowel = function (char) {
-    const vowel = ['a', 'e', 'i', 'o', 'u'];
+    const vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
     for (let i = 0; i < vowel.length; i++) {
         if (char === vowel[i]) {
             return true;
