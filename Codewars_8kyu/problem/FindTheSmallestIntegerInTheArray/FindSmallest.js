@@ -1,4 +1,5 @@
 const findSmallest = function() {
+    return 1;
 };
 
 
