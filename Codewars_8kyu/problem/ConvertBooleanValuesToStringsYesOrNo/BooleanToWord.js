@@ -1,5 +1,5 @@
 const boolToWord = function(bool){
-    return 'Yes';
+    return bool ? 'Yes' : 'No';
 };
 
 module.exports = boolToWord;
