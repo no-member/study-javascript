@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/Codewars_7kyu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/VowelCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/VowelCount.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/quiz.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars_7kyu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codewars_7kyu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/VowelCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/VowelCount.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +127,7 @@
       <workItem from="1585571336195" duration="4198000" />
       <workItem from="1585652801434" duration="2837000" />
       <workItem from="1585673635777" duration="484000" />
+      <workItem from="1585674921658" duration="43000" />
     </task>
     <servers />
   </component>
