@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindArray.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/quiz.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindSmallest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindArray.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindSmallet.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="$PROJECT_DIR$/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.FindArray.test.js">
+  <component name="RunManager" selected="Jest.FindSmallet.test.js">
     <configuration name="1 is 1 (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -89,14 +88,14 @@
       <test-file value="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindArray.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="StringRepeatTest.js (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSmallet.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/problem/StringRepeat/StringRepeatTest.js" />
+      <test-file value="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindSmallet.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="StringRepeat.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.FindSmallet.test.js" />
         <item itemvalue="Jest.FindArray.test.js" />
         <item itemvalue="Jest.StringRepeat.test.js" />
         <item itemvalue="Jest.1 is 1 (2)" />
         <item itemvalue="Jest.1 is 1 (1)" />
-        <item itemvalue="Jest.StringRepeatTest.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585571334528</updated>
       <workItem from="1585571336195" duration="4198000" />
-      <workItem from="1585652801434" duration="388000" />
+      <workItem from="1585652801434" duration="1371000" />
     </task>
     <servers />
   </component>
@@ -141,6 +140,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="383" y="146" key="#FindArray.test.js" timestamp="1585654413348">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="383" y="146" key="#FindArray.test.js/0.23.1440.877@0.23.1440.877" timestamp="1585654413348" />
     <state x="383" y="135" key="#StringRepeatTest.js" timestamp="1585571865572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -149,28 +152,28 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="383" y="135" key="#StringRepeatTest.js_(1)/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571915910" />
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1585653666757">
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1585654575479">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585653666757" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585654575479" />
     <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326648" />
     <state width="1396" height="309" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854791" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1585653666756">
+    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1585654575474">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585653666756" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585654575474" />
     <state width="1396" height="248" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326645" />
     <state width="1396" height="309" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1585653666756">
+    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1585654575473">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585653666756" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585654575473" />
     <state width="1396" height="248" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326644" />
     <state width="1396" height="309" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1585653666757">
+    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1585654575476">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585653666757" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585654575476" />
     <state width="1396" height="248" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326647" />
     <state width="1396" height="309" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1396" height="309" key="GridCell.Tab.1.bottom" timestamp="1585616854792">
