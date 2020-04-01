@@ -1,5 +1,6 @@
-const getMiddle = function() {
-    return 'a';
+const getMiddle = function(str) {
+
+    return str;
 };
 
 module.exports = getMiddle;
