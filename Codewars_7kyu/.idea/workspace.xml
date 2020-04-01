@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67c3734-a09f-45b2-8051-145b2b4b21ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quiz/VowelCount/VowelCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/VowelCount/VowelCount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/VowelCount/VowelCount.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/VowelCount/VowelCount.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/GetMiddleCharacter/GetMiddleChar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/GetMiddleCharacter/GetMiddleChar.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/GetMiddleCharacter/quiz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,17 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.VowelCount.test.js">
+  <component name="RunManager" selected="Jest.GetMiddleChar.test.js">
+    <configuration name="GetMiddleChar.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/GetMiddleCharacter/GetMiddleChar.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="VowelCount.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -64,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.GetMiddleChar.test.js" />
         <item itemvalue="Jest.VowelCount.test.js" />
         <item itemvalue="Jest.vowelCount(&quot;hi&quot;) is 2" />
       </list>
@@ -79,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585673436429</updated>
-      <workItem from="1585673438565" duration="3098000" />
+      <workItem from="1585673438565" duration="4493000" />
     </task>
     <servers />
   </component>
@@ -90,22 +103,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="307" key="GridCell.Tab.0.bottom" timestamp="1585676913144">
+    <state width="1876" height="307" key="GridCell.Tab.0.bottom" timestamp="1585714782578">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="307" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585676913144" />
-    <state width="1876" height="307" key="GridCell.Tab.0.center" timestamp="1585676913143">
+    <state width="1876" height="307" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585714782578" />
+    <state width="1876" height="307" key="GridCell.Tab.0.center" timestamp="1585714782574">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="307" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585676913143" />
-    <state width="1876" height="307" key="GridCell.Tab.0.left" timestamp="1585676913142">
+    <state width="1876" height="307" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585714782574" />
+    <state width="1876" height="307" key="GridCell.Tab.0.left" timestamp="1585714782567">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="307" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585676913142" />
-    <state width="1876" height="307" key="GridCell.Tab.0.right" timestamp="1585676913143">
+    <state width="1876" height="307" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585714782567" />
+    <state width="1876" height="307" key="GridCell.Tab.0.right" timestamp="1585714782575">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="307" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585676913143" />
+    <state width="1876" height="307" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585714782575" />
     <state x="1687" y="267" key="new project wizard" timestamp="1585674207201">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
