@@ -1,5 +1,4 @@
 const getMiddle = function(str) {
-
     return str;
 };
 
