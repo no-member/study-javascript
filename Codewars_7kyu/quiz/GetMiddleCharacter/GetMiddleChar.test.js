@@ -7,3 +7,7 @@ test('getMiddle("a")는 "a"를 반환', ()=> {
 test('getMiddle("BB")는 "BB"를 반환', ()=> {
   expect(getMiddle('BB')).toBe('BB');
 });
+
+test('getMiddle("HoH")는 "o"를 반환', ()=>{
+  expect(getMiddle('HoH')).toBe('o');
+});
