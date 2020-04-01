@@ -1,5 +1,5 @@
 const disemvowel = function(str) {
-
+    return 'tst';
 };
 
 
