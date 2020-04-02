@@ -1,8 +1,5 @@
-const isSquare = function(number) {
-   if (number === 1) {
-       return true;
-   }
-   return false;
+const isSquare = function (number) {
+    return Math.sqrt(number) % 1 === 0;
 };
 
 module.exports = isSquare;
