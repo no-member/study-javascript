@@ -1,8 +1,8 @@
 const sum = function (numbers) {
     let answer = 0;
-    for (let i = 0; i < numbers.length; i++) {
-       answer += numbers[i];
-    }
+    numbers.forEach(function (number) {
+        answer += number;
+    });
     return answer;
 };
 
