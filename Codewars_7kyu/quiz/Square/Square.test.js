@@ -15,3 +15,9 @@ test('isSquare(4)은 true를 반환함',()=>{
 test('isSquare(0)은 true를 반환함',()=>{
     expect(isSquare(0)).toBe(true);
 });
+
+test('isSquare(-1)은 false 반환함',()=>{
+    expect(isSquare(-1)).toBe(false);
+});
+
+
