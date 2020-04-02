@@ -1,6 +1,6 @@
 const accum = require('./Accum');
 
-test('a는 A를 반환한다.', ()=>{
+test('accum("a")는 "A"를 반환한다.', ()=>{
     expect(accum('a')).toBe('A');
 });
 

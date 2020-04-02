@@ -128,24 +128,28 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="292" key="GridCell.Tab.0.bottom" timestamp="1585796151072">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom" timestamp="1585829090294">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585829090294" />
     <state width="1876" height="307" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178743" />
     <state width="1878" height="292" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585796151072" />
-    <state width="1878" height="292" key="GridCell.Tab.0.center" timestamp="1585796151071">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="232" key="GridCell.Tab.0.center" timestamp="1585829090292">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585829090292" />
     <state width="1876" height="307" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178742" />
     <state width="1878" height="292" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585796151071" />
-    <state width="1878" height="292" key="GridCell.Tab.0.left" timestamp="1585796151070">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="232" key="GridCell.Tab.0.left" timestamp="1585829090292">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585829090292" />
     <state width="1876" height="307" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178741" />
     <state width="1878" height="292" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585796151070" />
-    <state width="1878" height="292" key="GridCell.Tab.0.right" timestamp="1585796151071">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="232" key="GridCell.Tab.0.right" timestamp="1585829090293">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585829090293" />
     <state width="1876" height="307" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178742" />
     <state width="1878" height="292" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585796151071" />
     <state x="2075" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585738460042">
