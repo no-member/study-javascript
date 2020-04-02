@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e67c3734-a09f-45b2-8051-145b2b4b21ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/Square/Square.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/Square/Square.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/Mumbling/Accum.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/Mumbling/Accum.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +38,15 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.Square.test.js">
-    <configuration name="GetMiddleChar.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Accum.test.js">
+    <configuration name="Accum.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/GetMiddleCharacter/GetMiddleChar.test.js" />
+      <test-file value="$PROJECT_DIR$/quiz/Mumbling/Accum.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="Square.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -69,14 +69,17 @@
       <test-file value="$PROJECT_DIR$/quiz/DisemvowelTrolls/Trolls.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="VowelCount.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="a는 A를 반환한다." type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/VowelCount/VowelCount.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/quiz/Mumbling/Accum.test.js" />
+      <test-names>
+        <test-name value="a는 A를 반환한다." />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="isSquare(1)은 true를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -94,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Accum.test.js" />
+        <item itemvalue="Jest.a는 A를 반환한다." />
         <item itemvalue="Jest.Square.test.js" />
         <item itemvalue="Jest.isSquare(1)은 true를 반환함" />
         <item itemvalue="Jest.Trolls.test.js" />
-        <item itemvalue="Jest.GetMiddleChar.test.js" />
-        <item itemvalue="Jest.VowelCount.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +117,7 @@
       <updated>1585673436429</updated>
       <workItem from="1585673438565" duration="8113000" />
       <workItem from="1585738459008" duration="1399000" />
+      <workItem from="1585824811119" duration="3679000" />
     </task>
     <servers />
   </component>
@@ -124,26 +128,66 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="292" key="GridCell.Tab.0.bottom" timestamp="1585795568553">
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1585836159286">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585830004835" />
     <state width="1876" height="307" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178743" />
-    <state width="1878" height="292" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585795568553" />
-    <state width="1878" height="292" key="GridCell.Tab.0.center" timestamp="1585795568550">
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833826761" />
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585836159286" />
+    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1585836159284">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585830004834" />
     <state width="1876" height="307" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178742" />
-    <state width="1878" height="292" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585795568550" />
-    <state width="1878" height="292" key="GridCell.Tab.0.left" timestamp="1585795568549">
+    <state width="1398" height="232" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833826758" />
+    <state width="1878" height="232" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585836159284" />
+    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1585836159283">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585830004832" />
     <state width="1876" height="307" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178741" />
-    <state width="1878" height="292" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585795568549" />
-    <state width="1878" height="292" key="GridCell.Tab.0.right" timestamp="1585795568551">
+    <state width="1398" height="232" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833826754" />
+    <state width="1878" height="232" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585836159283" />
+    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1585836159285">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585830004835" />
     <state width="1876" height="307" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585737178742" />
-    <state width="1878" height="292" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585795568551" />
+    <state width="1398" height="232" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833826760" />
+    <state width="1878" height="232" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585836159285" />
+    <state width="1398" height="405" key="GridCell.Tab.1.bottom" timestamp="1585833789115">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789115" />
+    <state width="1398" height="405" key="GridCell.Tab.1.center" timestamp="1585833789113">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789113" />
+    <state width="1398" height="405" key="GridCell.Tab.1.left" timestamp="1585833789113">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789113" />
+    <state width="1398" height="405" key="GridCell.Tab.1.right" timestamp="1585833789114">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789114" />
+    <state width="1398" height="405" key="GridCell.Tab.2.bottom" timestamp="1585833789117">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.2.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789117" />
+    <state width="1398" height="405" key="GridCell.Tab.2.center" timestamp="1585833789116">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.2.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789116" />
+    <state width="1398" height="405" key="GridCell.Tab.2.left" timestamp="1585833789115">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.2.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789115" />
+    <state width="1398" height="405" key="GridCell.Tab.2.right" timestamp="1585833789116">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="405" key="GridCell.Tab.2.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833789116" />
     <state x="2075" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585738460042">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
