@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67c3734-a09f-45b2-8051-145b2b4b21ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/Mumbling/quiz.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/Mumbling/Accum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/Mumbling/Accum.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.Square.test.js">
+  <component name="RunManager" selected="Jest.a는 A를 반환한다.">
     <configuration name="GetMiddleChar.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -69,14 +69,17 @@
       <test-file value="$PROJECT_DIR$/quiz/DisemvowelTrolls/Trolls.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="VowelCount.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="a는 A를 반환한다." type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/VowelCount/VowelCount.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/quiz/Mumbling/Accum.test.js" />
+      <test-names>
+        <test-name value="a는 A를 반환한다." />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="isSquare(1)은 true를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -94,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.a는 A를 반환한다." />
         <item itemvalue="Jest.Square.test.js" />
         <item itemvalue="Jest.isSquare(1)은 true를 반환함" />
         <item itemvalue="Jest.Trolls.test.js" />
         <item itemvalue="Jest.GetMiddleChar.test.js" />
-        <item itemvalue="Jest.VowelCount.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +117,7 @@
       <updated>1585673436429</updated>
       <workItem from="1585673438565" duration="8113000" />
       <workItem from="1585738459008" duration="1399000" />
-      <workItem from="1585824811119" duration="742000" />
+      <workItem from="1585824811119" duration="1247000" />
     </task>
     <servers />
   </component>
