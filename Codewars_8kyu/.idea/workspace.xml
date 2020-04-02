@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Codewars_7kyu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codewars_7kyu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/VowelCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Codewars_7kyu/quiz/VowelCount/VowelCount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.NumberToString.test.js">
+  <component name="RunManager" selected="Jest.example(1,1)은 2를 반환함">
     <configuration name="1 is '1'" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -74,16 +74,6 @@
       <test-file value="$PROJECT_DIR$/problem/ConvertBooleanValuesToStringsYesOrNo/BooleanToWord.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="FindArray.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/problem/FindTheSmallestIntegerInTheArray/FindArray.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="FindSmallet.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -104,13 +94,26 @@
       <test-file value="$PROJECT_DIR$/problem/ConvertNumberString/NumberToString.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="example(1,1)은 2를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/problem/Example/Example.test.js" />
+      <test-names>
+        <test-name value="example(1,1)은 2를 반환함" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.example(1,1)은 2를 반환함" />
         <item itemvalue="Jest.NumberToString.test.js" />
         <item itemvalue="Jest.1 is '1'" />
         <item itemvalue="Jest.BooleanToWord.test.js" />
         <item itemvalue="Jest.FindSmallet.test.js" />
-        <item itemvalue="Jest.FindArray.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +131,7 @@
       <workItem from="1585652801434" duration="2837000" />
       <workItem from="1585673635777" duration="484000" />
       <workItem from="1585674921658" duration="43000" />
+      <workItem from="1585836698649" duration="598000" />
     </task>
     <servers />
   </component>
