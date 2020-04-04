@@ -1,5 +1,5 @@
 const opposite = function (num) {
-    return null;
+    return -1;
 };
 
 module.exports = opposite;
