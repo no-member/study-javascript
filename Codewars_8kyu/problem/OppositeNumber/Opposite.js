@@ -1,5 +1,5 @@
-const opposite = function (num) {
-    return num===0 ? num : -num;
+const opposite = number => {
+    return number===0 ? number : -number;
 };
 
 module.exports = opposite;
