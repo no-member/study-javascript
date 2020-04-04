@@ -11,3 +11,7 @@ test('opposite(3)은 -3를 반환함',() =>{
 test('opposite(0)은 0을 반환함',() =>{
     expect(opposite(0)).toBe(0);
 });
+
+test('opposite(-19)은 19을 반환함',() =>{
+    expect(opposite(-19)).toBe(19);
+});
