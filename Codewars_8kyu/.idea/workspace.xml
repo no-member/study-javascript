@@ -41,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/problem/OppositeNumber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/RemoveFirstLast" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/problem/Postive" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Opposite.test.js">
+  <component name="RunManager" selected="Jest.remove(&quot;person&quot;)은 &quot;erso&quot;을 반환한다.">
     <configuration name="Opposite.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -88,19 +88,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="example(1,1)은 2를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/problem/Example/Example.test.js" />
-      <test-names>
-        <test-name value="example(1,1)은 2를 반환함" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="opposite(1)은 -1를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -114,13 +101,26 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="remove(&quot;person&quot;)은 &quot;erso&quot;을 반환한다." type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/quiz/RemoveFirstLast/RemoveChar.test.js" />
+      <test-names>
+        <test-name value="remove(&quot;person&quot;)은 &quot;erso&quot;을 반환한다." />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.remove(&quot;person&quot;)은 &quot;erso&quot;을 반환한다." />
         <item itemvalue="Jest.Opposite.test.js" />
         <item itemvalue="Jest.opposite(1)은 -1를 반환함" />
         <item itemvalue="Jest.Postive.test.js" />
         <item itemvalue="Jest.example(1,1)은 2를 반환함 (1)" />
-        <item itemvalue="Jest.example(1,1)은 2를 반환함" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <workItem from="1585836698649" duration="598000" />
       <workItem from="1585839436884" duration="1855000" />
       <workItem from="1585962539257" duration="2048000" />
-      <workItem from="1586100553523" duration="192000" />
+      <workItem from="1586100553523" duration="479000" />
     </task>
     <servers />
   </component>
