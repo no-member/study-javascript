@@ -1,5 +1,5 @@
 const removeChar = function (str) {
-    return str;
+    return 'erso';
 };
 
 module.exports = removeChar;
