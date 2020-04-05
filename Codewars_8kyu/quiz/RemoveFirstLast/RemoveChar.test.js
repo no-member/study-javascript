@@ -7,3 +7,7 @@ test('remove("person")은 "erso"을 반환한다.',() =>{
 test('remove("place")은 "lac"을 반환한다.',() =>{
     expect(removeChar('place')).toBe('lac');
 });
+
+test('remove("TT")은 ""을 반환한다.',() =>{
+    expect(removeChar('TT')).toBe('');
+});
