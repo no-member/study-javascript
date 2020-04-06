@@ -8,6 +8,10 @@ test('makeNegative(123)은 -123를 반환함',() =>{
     expect(makeNegative(123)).toBe(-123);
 });
 
+test('makeNegative(1.39)은 -1.39를 반환함',() =>{
+    expect(makeNegative(1.39)).toBe(-1.39);
+});
+
 test('makeNegative(-30)은 -30을 반환함',() =>{
     expect(makeNegative(-30)).toBe(-30);
 });
