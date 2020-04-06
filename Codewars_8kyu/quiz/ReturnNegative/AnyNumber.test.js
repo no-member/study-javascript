@@ -7,3 +7,7 @@ test('makeNegative(1)은 -1를 반환함',() =>{
 test('makeNegative(123)은 -123를 반환함',() =>{
     expect(makeNegative(123)).toBe(-123);
 });
+
+test('makeNegative(-30)은 -30을 반환함',() =>{
+    expect(makeNegative(-30)).toBe(-30);
+});
