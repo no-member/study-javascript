@@ -1,6 +1,5 @@
 const removeSpaces = function (str) {
-    const answer = str.replace(/ /g, '');
-    return answer;
+    return str.replace(/ /g, '');
 };
 
 module.exports = removeSpaces;
