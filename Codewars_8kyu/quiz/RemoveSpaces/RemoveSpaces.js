@@ -1,5 +1,5 @@
 const removeSpaces = function (str) {
-    return str;
+    return "Hi";
 };
 
 module.exports = removeSpaces;
