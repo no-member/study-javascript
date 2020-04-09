@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e67c3734-a09f-45b2-8051-145b2b4b21ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/GetMiddleCharacter/GetMiddleChar.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/GetMiddleCharacter/GetMiddleChar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +34,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Jest.GetMiddleChar.test.js">
     <configuration name="GetMiddleChar.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -91,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585673436429</updated>
       <workItem from="1585673438565" duration="7429000" />
+      <workItem from="1585737599357" duration="676000" />
     </task>
     <servers />
   </component>
@@ -121,6 +123,10 @@
     </state>
     <state width="1876" height="307" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585714981817" />
     <state width="1876" height="307" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585717619279" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1585738231803">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1585738231803" />
     <state x="1687" y="267" key="new project wizard" timestamp="1585674207201">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
