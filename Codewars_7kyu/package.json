@@ -1,7 +1,6 @@
 {
   "name": "Codewars_7kyu",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^25.2.4"
-  }
+  },
+  "dependencies": {
+    "jest": "^25.2.4"
+  },
+  "description": ""
 }
