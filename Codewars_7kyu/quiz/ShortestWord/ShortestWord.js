@@ -1,5 +1,5 @@
 const countShortest = function (sentence) {
-    return sentence.length;
+    return Math.min(...sentence.split(" ").map(str => str.length));
 };
 
 module.exports = countShortest;
