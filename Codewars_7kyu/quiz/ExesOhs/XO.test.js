@@ -20,7 +20,7 @@ test("xo('XoaaxdddOOee')는 false를 반환한다.", () => {
     expect(xo('XoaaxdddOOee')).toBe(false);
 });
 
-test("xo('XoaaxdddOee')는 false를 반환한다.", () => {
+test("xo('XoaaxdddOee')는 true를 반환한다.", () => {
     expect(xo('XoaaxdddOee')).toBe(true);
 });
 
