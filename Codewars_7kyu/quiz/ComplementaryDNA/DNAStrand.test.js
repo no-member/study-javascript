@@ -7,3 +7,7 @@ test('dnaStrand("TTTT")는 "AAAA"를 반환함', () => {
 test('dnaStrand("AAAA")는 "TTTT"를 반환함', () => {
     expect(dnaStrand("AAAA")).toBe("TTTT");
 });
+
+test('dnaStrand("CCCC")는 "GGGG"를 반환함', () => {
+    expect(dnaStrand("CCCC")).toBe("GGGG");
+});
