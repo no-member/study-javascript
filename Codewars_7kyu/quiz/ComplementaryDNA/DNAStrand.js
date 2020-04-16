@@ -1,5 +1,6 @@
 const dnaStrand = function (dna) {
     let dnaList = dna.split('');
+
     for (let i = 0; i < dnaList.length; i++) {
         switch (dnaList[i]) {
             case 'A':
@@ -11,7 +12,9 @@ const dnaStrand = function (dna) {
             case 'C':
                 dnaList[i] = 'G';
                 break;
-
+            case 'G':
+                dnaList[i] = 'C';
+                break;
         }
     }
 
