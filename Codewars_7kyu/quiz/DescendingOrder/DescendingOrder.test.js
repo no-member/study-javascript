@@ -7,3 +7,7 @@ test('descendingOrder(1)은 1을 반환함', ()=>{
 test('descendingOrder(14)은 41을 반환함', ()=>{
     expect(descendingOrder(14)).toBe(41);
 });
+
+test('descendingOrder(3450)은 5430을 반환함', ()=>{
+    expect(descendingOrder(3450)).toBe(5430);
+});
