@@ -21,4 +21,17 @@ const dnaStrand = function (dna) {
     return dnaList.join('');
 };
 
+// const dnaStrand = function (dna) {
+//     return dna.replace(/./g, function(c) {
+//         return dnaStrand.pairs[c]
+//     })
+// };
+//
+// dnaStrand.pairs = {
+//     A: 'T',
+//     T: 'A',
+//     C: 'G',
+//     G: 'C',
+// };
+
 module.exports = dnaStrand;
