@@ -8,6 +8,10 @@ const dnaStrand = function (dna) {
             case 'T':
                 dnaList[i] = 'A';
                 break;
+            case 'C':
+                dnaList[i] = 'G';
+                break;
+
         }
     }
 
