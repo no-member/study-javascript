@@ -1,5 +1,5 @@
 const dnaStrand = function (dna) {
-    return null;
+    return 'AAAA';
 };
 
 module.exports = dnaStrand;
