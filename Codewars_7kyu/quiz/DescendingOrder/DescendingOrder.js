@@ -1,5 +1,5 @@
 const descendingOrder = function (number) {
-    return null;
+    return 1;
 };
 
 module.exports = descendingOrder;
