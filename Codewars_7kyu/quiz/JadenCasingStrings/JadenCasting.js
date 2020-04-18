@@ -1,5 +1,5 @@
 const jadenCasting = function (sentence) {
-    return sentence.slice(0, 1).toUpperCase() + sentence.slice(1);
+    return sentence.split(' ').map(word => word.slice(0, 1).toUpperCase() + word.slice(1)).join(' ');
 };
 
 module.exports = jadenCasting;
