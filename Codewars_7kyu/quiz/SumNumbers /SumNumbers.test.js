@@ -15,3 +15,7 @@ test('getSum(-2, 3)은 3을 반환한다.', () => {
 test('getSum(3, 3)은 3을 반환한다.', () => {
     expect(getSum(3, 3)).toBe(3);
 });
+
+test('getSum(4, -3)은 4을 반환한다.', () => {
+    expect(getSum(4, -3)).toBe(4);
+});
