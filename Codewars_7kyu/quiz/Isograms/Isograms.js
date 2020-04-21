@@ -1,5 +1,5 @@
 const isIsogram = function (sentence) {
-    return null;
+    return true;
 };
 
 module.exports = isIsogram;
