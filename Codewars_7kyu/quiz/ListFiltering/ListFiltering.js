@@ -1,7 +1,7 @@
-const listNumberFilter = function (list) {
+const numberFilter = function (list) {
     return list.filter(function (element) {
         return typeof element === 'number';
     });
 };
 
-module.exports = listNumberFilter;
+module.exports = numberFilter;
