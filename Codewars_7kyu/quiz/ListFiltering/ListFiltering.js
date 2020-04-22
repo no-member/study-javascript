@@ -1,9 +1,6 @@
 const listNumberFilter = function (list) {
     return list.filter(function (element) {
-        if (typeof element !== 'number'){
-            return;
-        }
-        return element;
+        return typeof element === 'number';
     });
 };
 
