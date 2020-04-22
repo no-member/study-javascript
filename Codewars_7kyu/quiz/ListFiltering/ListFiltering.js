@@ -1,5 +1,5 @@
 const listNumberFilter = function (list) {
-    return null;
+    return list;
 };
 
 module.exports = listNumberFilter;
