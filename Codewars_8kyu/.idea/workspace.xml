@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/quiz/ReversedStrings/ReversedString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/ReversedStrings/ReversedString.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +43,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/ReversedStrings" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quiz/ReversedStrings" />
       <recent name="$PROJECT_DIR$/quiz/RemoveSpaces" />
       <recent name="$PROJECT_DIR$/quiz/ReturnNegative" />
       <recent name="$PROJECT_DIR$/quiz/RemoveFirstLast" />
       <recent name="$PROJECT_DIR$/problem/OppositeNumber" />
-      <recent name="$PROJECT_DIR$/problem/Postive" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.RemoveSpaces.test.js">
+  <component name="RunManager" selected="Jest.ReversedString.test.js">
     <configuration name=" removeSpaces(&quot; Hi &quot;)은 &quot;Hi&quot;를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -81,16 +83,6 @@
       <test-file value="$PROJECT_DIR$/quiz/ReturnNegative/AnyNumber.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="Example.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/ReturnNegative/Example.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="RemoveSpaces.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -99,6 +91,16 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/quiz/RemoveSpaces/RemoveSpaces.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReversedString.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/ReversedStrings/ReversedString.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="makeNegative(1)은 -1를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.ReversedString.test.js" />
         <item itemvalue="Jest.RemoveSpaces.test.js" />
         <item itemvalue="Jest. removeSpaces(&quot; Hi &quot;)은 &quot;Hi&quot;를 반환함" />
         <item itemvalue="Jest.AnyNumber.test.js" />
         <item itemvalue="Jest.makeNegative(1)은 -1를 반환함" />
-        <item itemvalue="Jest.Example.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +146,7 @@
       <workItem from="1586100553523" duration="1397000" />
       <workItem from="1586213752477" duration="882000" />
       <workItem from="1586311791373" duration="1298000" />
-      <workItem from="1587614275428" duration="620000" />
+      <workItem from="1587614275428" duration="1129000" />
     </task>
     <servers />
   </component>
