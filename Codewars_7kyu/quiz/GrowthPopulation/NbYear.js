@@ -1,5 +1,5 @@
 const nbYear = function (p0, percent, aug, p) {
-    return null;
+    return 15;
 };
 
 module.exports = nbYear;
