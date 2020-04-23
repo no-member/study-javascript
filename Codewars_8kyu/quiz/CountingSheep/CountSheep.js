@@ -1,10 +1,14 @@
 const countSheep = list => {
     let counter = 0;
 
-    for (let i = 0; i < list.length; i++) {
-       if (list[i]) {
-           counter++;
-       }
+    if (list == null) {
+        return counter;
+    }
+
+    for (const aBoolean of list) {
+        if (aBoolean) {
+            counter++;
+        }
     }
 
     return counter;
