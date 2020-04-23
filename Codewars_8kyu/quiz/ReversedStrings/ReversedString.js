@@ -1,5 +1,5 @@
 const reversedString = function (str) {
-    return 'ih';
+    return str.split('').reverse().join('');
 };
 
 module.exports = reversedString;
