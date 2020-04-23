@@ -1,5 +1,5 @@
 const reversedString = function (str) {
-    return null;
+    return 'ih';
 };
 
 module.exports = reversedString;
