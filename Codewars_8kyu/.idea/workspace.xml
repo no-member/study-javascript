@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quiz/ReversedStrings/ReversedString.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/ReversedStrings/ReversedString.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/CountingSheep/quiz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,7 @@
       <workItem from="1586100553523" duration="1397000" />
       <workItem from="1586213752477" duration="882000" />
       <workItem from="1586311791373" duration="1298000" />
-      <workItem from="1587614275428" duration="1900000" />
+      <workItem from="1587614275428" duration="3488000" />
     </task>
     <servers />
   </component>
