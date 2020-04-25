@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/GrasshopperSummation/GrassHopper.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/GrasshopperSummation/GrassHopper.js" afterDir="false" />
-    </list>
+    <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +140,7 @@
       <workItem from="1586213752477" duration="882000" />
       <workItem from="1586311791373" duration="1298000" />
       <workItem from="1587614275428" duration="7575000" />
-      <workItem from="1587778535727" duration="2387000" />
+      <workItem from="1587778535727" duration="3021000" />
     </task>
     <servers />
   </component>
