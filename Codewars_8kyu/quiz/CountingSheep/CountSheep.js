@@ -15,7 +15,7 @@
 // };
 
 const countSheep = list => {
-    if (list == null) {
+    if (list === null) {
         return 0;
     }
     return list.filter(Boolean).length;
