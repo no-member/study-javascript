@@ -1,5 +1,5 @@
 const squareSum = function (numList) {
-    return null;
+    return 1;
 };
 
 module.exports = squareSum;
