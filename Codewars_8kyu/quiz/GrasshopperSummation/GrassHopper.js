@@ -1,5 +1,5 @@
 const summation = function (num) {
-    return null;
+    return num * (num + 1) / 2;
 };
 
 module.exports = summation;
