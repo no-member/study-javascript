@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/GrasshopperSummation/quiz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/GrasshopperSummation/GrassHopper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/GrasshopperSummation/GrassHopper.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="$PROJECT_DIR$/quiz/RemoveFirstLast" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.ReversedString.test.js">
+  <component name="RunManager" selected="Jest.GrassHopper.test.js">
     <configuration name=" removeSpaces(&quot; Hi &quot;)은 &quot;Hi&quot;를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -71,16 +72,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="AnyNumber.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/ReturnNegative/AnyNumber.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="CountSheep.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -89,6 +80,16 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/quiz/CountingSheep/CountSheep.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GrassHopper.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/GrasshopperSummation/GrassHopper.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="RemoveSpaces.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.GrassHopper.test.js" />
         <item itemvalue="Jest.ReversedString.test.js" />
         <item itemvalue="Jest.CountSheep.test.js" />
         <item itemvalue="Jest.RemoveSpaces.test.js" />
         <item itemvalue="Jest. removeSpaces(&quot; Hi &quot;)은 &quot;Hi&quot;를 반환함" />
-        <item itemvalue="Jest.AnyNumber.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,7 @@
       <workItem from="1586213752477" duration="882000" />
       <workItem from="1586311791373" duration="1298000" />
       <workItem from="1587614275428" duration="7575000" />
-      <workItem from="1587778535727" duration="1500000" />
+      <workItem from="1587778535727" duration="1749000" />
     </task>
     <servers />
   </component>
