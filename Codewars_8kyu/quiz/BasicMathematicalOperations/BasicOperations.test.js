@@ -65,3 +65,7 @@ test('basicOperation("/", -10, 2)은 -5 반환함', () => {
 test('basicOperation("/", 0, 2)은 0 반환함', () => {
     expect(basicOperation('/', 0, 2)).toBe(0);
 });
+
+test('basicOperation("/", 2, 0)은 Error 반환함', () => {
+    expect(() => basicOperation('/', 2, 0).toThrow());
+});
