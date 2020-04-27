@@ -13,6 +13,9 @@ const basicOperation = function (operation, num1, num2) {
             return num1 / num2;
     }
     return 0;
+
+    // Don't use eval function
+    // return eval(value1 + operation + value2);
 };
 
 module.exports = basicOperation;
