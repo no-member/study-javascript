@@ -57,3 +57,11 @@ describe('* 테스트', () => {
 test('basicOperation("/", 12, 2)은 6 반환함', () => {
     expect(basicOperation('/', 12, 2)).toBe(6);
 });
+
+test('basicOperation("/", -10, 2)은 -5 반환함', () => {
+    expect(basicOperation('/', -10, 2)).toBe(-5);
+});
+
+test('basicOperation("/", 0, 2)은 0 반환함', () => {
+    expect(basicOperation('/', 0, 2)).toBe(0);
+});
