@@ -16,8 +16,18 @@ test('basicOperation("+", -19, 6)은 -13를 반환함',() =>{
     expect(basicOperation('+',-19, 6)).toBe(-13);
 });
 
-test('basicOperation("-", 10, 6)은 -4를 반환함',() =>{
+test('basicOperation("-", 10, 6)은 4를 반환함',() =>{
     expect(basicOperation('-',10, 6)).toBe(4);
 });
 
+test('basicOperation("-", 2, 6)은 -4를 반환함',() =>{
+    expect(basicOperation('-',2, 6)).toBe(-4);
+});
 
+test('basicOperation("-", 10, -6)은 16를 반환함',() =>{
+    expect(basicOperation('-',10, -6)).toBe(16);
+});
+
+test('basicOperation("-", 10, 0)은 10을 반환함',() =>{
+    expect(basicOperation('-',10, 0)).toBe(10);
+});
