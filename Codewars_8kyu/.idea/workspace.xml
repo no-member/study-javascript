@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/SquareSum/SquareSum.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/SquareSum/SquareSum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/SquareSum/SquareSum.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/SquareSum/SquareSum.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/BasicMathematicalOperations/BasicOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/BasicMathematicalOperations/BasicOperations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +41,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/SquareSum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/BasicMathematicalOperations" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quiz/BasicMathematicalOperations" />
       <recent name="$PROJECT_DIR$/quiz/SquareSum" />
       <recent name="$PROJECT_DIR$/quiz/CountingSheep" />
       <recent name="$PROJECT_DIR$/quiz/ReversedStrings" />
       <recent name="$PROJECT_DIR$/quiz/RemoveSpaces" />
-      <recent name="$PROJECT_DIR$/quiz/ReturnNegative" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.SquareSum.test.js">
-    <configuration name="CountSheep.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.BasicOperations.test.js">
+    <configuration name="BasicOperations.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/CountingSheep/CountSheep.test.js" />
+      <test-file value="$PROJECT_DIR$/quiz/BasicMathematicalOperations/BasicOperations.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="GrassHopper.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -80,26 +78,6 @@
       <test-file value="$PROJECT_DIR$/quiz/GrasshopperSummation/GrassHopper.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="RemoveSpaces.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/RemoveSpaces/RemoveSpaces.test.js" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ReversedString.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/ReversedStrings/ReversedString.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="SquareSum.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -110,13 +88,39 @@
       <test-file value="$PROJECT_DIR$/quiz/SquareSum/SquareSum.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="+ 테스트" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/quiz/BasicMathematicalOperations/BasicOperations.test.js" />
+      <test-names>
+        <test-name value="+ 테스트" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="basicOperation(&quot;/&quot;, 2, 0)은 Error 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/quiz/BasicMathematicalOperations/BasicOperations.test.js" />
+      <test-names>
+        <test-name value="basicOperation(&quot;/&quot;, 2, 0)은 Error 반환함" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.BasicOperations.test.js" />
+        <item itemvalue="Jest.+ 테스트" />
+        <item itemvalue="Jest.basicOperation(&quot;/&quot;, 2, 0)은 Error 반환함" />
         <item itemvalue="Jest.SquareSum.test.js" />
         <item itemvalue="Jest.GrassHopper.test.js" />
-        <item itemvalue="Jest.ReversedString.test.js" />
-        <item itemvalue="Jest.CountSheep.test.js" />
-        <item itemvalue="Jest.RemoveSpaces.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +145,9 @@
       <workItem from="1586213752477" duration="882000" />
       <workItem from="1586311791373" duration="1298000" />
       <workItem from="1587614275428" duration="7575000" />
-      <workItem from="1587778535727" duration="5563000" />
+      <workItem from="1587778535727" duration="6381000" />
+      <workItem from="1587867620160" duration="600000" />
+      <workItem from="1587987083662" duration="4022000" />
     </task>
     <servers />
   </component>
@@ -168,46 +174,51 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="383" y="135" key="#StringRepeatTest.js_(1)/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571915910" />
-    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585655601116">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="95" y="400" width="1177" height="593" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587989383799">
+      <screen x="0" y="312" width="1366" height="768" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1585655601116" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1587786937795">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="95" y="400" width="1177" height="593" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587989383799" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1587991088833">
+      <screen x="0" y="312" width="1366" height="768" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587786937795" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250298" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326648" />
     <state width="1876" height="211" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209070" />
     <state width="1396" height="309" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854791" />
     <state width="1876" height="200" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151639" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1587786937794">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1587991088833">
+      <screen x="0" y="312" width="1366" height="768" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587786937794" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326645" />
     <state width="1876" height="211" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209069" />
     <state width="1396" height="309" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1876" height="200" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151637" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1587786937794">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1587991088832">
+      <screen x="0" y="312" width="1366" height="768" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587786937794" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088832" />
     <state width="1396" height="248" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326644" />
     <state width="1876" height="211" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209069" />
     <state width="1396" height="309" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1876" height="200" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151636" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1587786937795">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1587991088833">
+      <screen x="0" y="312" width="1366" height="768" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587786937795" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326647" />
     <state width="1876" height="211" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209070" />
     <state width="1396" height="309" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
@@ -258,5 +269,9 @@
     <state x="7" y="177" key="new project wizard/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571837932" />
     <state x="1447" y="213" key="new project wizard/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585673436367" />
     <state x="7" y="195" key="new project wizard/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585574444853" />
+    <state x="1989" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587987364040">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1989" y="259" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1587987364040" />
   </component>
 </project>
