@@ -15,3 +15,9 @@ test('basicOperation("+", 112, 20)은 132를 반환함',() =>{
 test('basicOperation("+", -19, 6)은 -13를 반환함',() =>{
     expect(basicOperation('+',-19, 6)).toBe(-13);
 });
+
+test('basicOperation("-", 10, 6)은 -4를 반환함',() =>{
+    expect(basicOperation('-',10, 6)).toBe(4);
+});
+
+
