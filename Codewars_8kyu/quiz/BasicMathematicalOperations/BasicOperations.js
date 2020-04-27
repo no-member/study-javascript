@@ -4,6 +4,8 @@ const basicOperation = function (operation, num1, num2) {
             return num1 + num2;
         case '-':
             return num1 - num2;
+        case '*':
+            return num1 * num2;
     }
     return 0;
 };

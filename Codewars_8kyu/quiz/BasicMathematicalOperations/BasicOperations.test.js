@@ -35,3 +35,15 @@ test('basicOperation("-", 10, 0)은 10을 반환함',() =>{
 test('basicOperation("*", 2, 12)은 24을 반환함',() =>{
     expect(basicOperation('*',2, 12)).toBe(24);
 });
+
+test('basicOperation("*", 10, 23)은 230 반환함',() =>{
+    expect(basicOperation('*',10, 23)).toBe(230);
+});
+
+test('basicOperation("*", 2, -2)은 -4 반환함',() =>{
+    expect(basicOperation('*',2, -2)).toBe(-4);
+});
+
+test('basicOperation("*", 0, 2)은 0 반환함',() =>{
+    expect(basicOperation('*',0, 2)).toBe(0);
+});
