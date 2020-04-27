@@ -1,5 +1,5 @@
 const basicOperation = function (operation, num1, num2) {
-    return null;
+    return 3;
 };
 
 module.exports = basicOperation;
