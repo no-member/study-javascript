@@ -31,3 +31,7 @@ test('basicOperation("-", 10, -6)은 16를 반환함',() =>{
 test('basicOperation("-", 10, 0)은 10을 반환함',() =>{
     expect(basicOperation('-',10, 0)).toBe(10);
 });
+
+test('basicOperation("*", 2, 12)은 24을 반환함',() =>{
+    expect(basicOperation('*',2, 12)).toBe(24);
+});
