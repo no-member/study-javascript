@@ -1,5 +1,5 @@
 const greet = function () {
-    return null;
+    return 'hello world!';
 };
 
 module.exports = greet;
