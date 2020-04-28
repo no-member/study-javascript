@@ -1,5 +1,5 @@
-const keepHydrated = function (num) {
+const litres = function (num) {
     return 1;
 };
 
-module.exports = keepHydrated;
+module.exports = litres;
