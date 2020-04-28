@@ -1,5 +1,5 @@
 const litres = function (num) {
-    return 1;
+    return Math.floor(num / 2);
 };
 
 module.exports = litres;
