@@ -1,5 +1,5 @@
-const stringToNumber = function () {
-    return null;
+const stringToNumber = function (stringNumber) {
+    return 1;
 };
 
 module.exports = stringToNumber;
