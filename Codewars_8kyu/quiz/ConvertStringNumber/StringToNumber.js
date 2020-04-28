@@ -1,5 +1,5 @@
 const stringToNumber = function (stringNumber) {
-    return 1;
+    return parseInt(stringNumber);
 };
 
 module.exports = stringToNumber;
