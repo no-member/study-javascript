@@ -1,5 +1,5 @@
 const centuryFromYear = function (years) {
-    return null;
+    return (years + 99) / 100;
 };
 
 module.exports = centuryFromYear;
