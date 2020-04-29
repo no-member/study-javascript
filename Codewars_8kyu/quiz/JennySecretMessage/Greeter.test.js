@@ -11,3 +11,7 @@ test('greet("Shin")은 "Hello, Shin!"을 반환함',() =>{
 test('greet("Hara")은 "Hello, Hara!"을 반환함',() =>{
     expect(greet('Hara')).toBe('Hello, Hara!');
 });
+
+test('greet("Johnny")은 "Hello, my love!"을 반환함',() =>{
+    expect(greet('Johnny')).toBe('Hello, my love!');
+});
