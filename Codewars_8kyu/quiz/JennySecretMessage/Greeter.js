@@ -1,5 +1,5 @@
 const greet = function (name) {
-    return null;
+    return `Hello, ${name}!`;
 };
 
 module.exports = greet;
