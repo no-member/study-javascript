@@ -1,5 +1,5 @@
 const isDivisible = function (number, x, y) {
-    return null;
+    return true;
 };
 
 module.exports = isDivisible;
