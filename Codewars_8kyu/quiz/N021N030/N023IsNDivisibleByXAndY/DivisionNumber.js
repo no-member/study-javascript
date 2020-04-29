@@ -1,5 +1,5 @@
-const divisionNumber = function (num1, num2) {
-    return num1 + num2;
+const isDivisible = function (number, x, y) {
+    return null;
 };
 
-module.exports = divisionNumber;
+module.exports = isDivisible;

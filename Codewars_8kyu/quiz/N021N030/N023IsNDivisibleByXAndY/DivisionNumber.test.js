@@ -1,5 +1,5 @@
-const example = require('./DivisionNumber');
+const isDivisible = require('./DivisionNumber');
 
-test('example(1,1)은 2를 반환함',() =>{
-    expect(example(1,1)).toBe(2);
+test('isDivisible(10, 2, 5)은 true를 반환함',() =>{
+    expect(isDivisible(10, 2, 5)).toBe(true);
 });
