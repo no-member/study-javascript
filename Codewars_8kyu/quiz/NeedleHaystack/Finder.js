@@ -1,5 +1,5 @@
 const findNeedleIn = function (haystack) {
-    return null;
+    return haystack.indexOf('needle');
 };
 
 module.exports = findNeedleIn;
