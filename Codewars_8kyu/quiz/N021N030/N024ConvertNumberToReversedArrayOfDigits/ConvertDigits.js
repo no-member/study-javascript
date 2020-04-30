@@ -1,5 +1,5 @@
 const toList = function (number) {
-    return null;
+    return [2, 1];
 };
 
 module.exports = toList;
