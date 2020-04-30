@@ -1,5 +1,10 @@
 const toList = function (number) {
-    return [2, 1];
+    const answer = [];
+    while (number > 0){
+        answer.push(number % 10);
+        number = Math.floor(number / 10);
+    }
+    return answer;
 };
 
 module.exports = toList;
