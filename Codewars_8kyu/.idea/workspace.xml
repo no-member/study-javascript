@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,7 @@
       <workItem from="1588138456828" duration="2151000" />
       <workItem from="1588240948951" duration="2757000" />
       <workItem from="1588256703424" duration="599000" />
-      <workItem from="1588279703631" duration="5312000" />
+      <workItem from="1588279703631" duration="6264000" />
     </task>
     <servers />
   </component>
