@@ -1,4 +1,4 @@
-const arraySum = arr => arr.reduce((a, b) => a + b , 0);
+const arraySum = arr => arr.reduce((a, b) => a + b, 0);
 
 const countPositivesSumNegatives = function (list) {
     if (list === null || list.length === 0) {
