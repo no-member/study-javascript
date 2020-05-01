@@ -15,3 +15,7 @@ test('countPositivesSumNegatives([2, 1, 3, 0, -3 -1])은 [3, -4]를 반환함',(
 test('countPositivesSumNegatives([])은 []를 반환함',() =>{
     expect(countPositivesSumNegatives([])).toStrictEqual([]);
 });
+
+test('countPositivesSumNegatives(null)은 []를 반환함',() =>{
+    expect(countPositivesSumNegatives(null)).toStrictEqual([]);
+});
