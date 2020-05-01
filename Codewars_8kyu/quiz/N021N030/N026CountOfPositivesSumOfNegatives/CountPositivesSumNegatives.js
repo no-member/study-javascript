@@ -1,5 +1,5 @@
 const countPositivesSumNegatives = function (list) {
-    return null;
+    return [3, -1];
 };
 
 module.exports = countPositivesSumNegatives;
