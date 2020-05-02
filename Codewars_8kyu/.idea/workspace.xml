@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName/quiz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName/AbbreviateTwoWords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName/AbbreviateTwoWords.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -60,7 +62,17 @@
       <recent name="$PROJECT_DIR$/quiz/JennySecretMessage" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.CountPositivesSumNegatives.test.js">
+  <component name="RunManager" selected="Jest.AbbreviateTwoWords.test.js">
+    <configuration name="AbbreviateTwoWords.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName/AbbreviateTwoWords.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="ConvertDigits.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -79,16 +91,6 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.test.js" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DivisionNumber.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/N021N030/N023IsNDivisibleByXAndY/DivisionNumber.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="Maps.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.AbbreviateTwoWords.test.js" />
         <item itemvalue="Jest.CountPositivesSumNegatives.test.js" />
         <item itemvalue="Jest.countPositivesSumNegatives([])은 []를 반환함" />
         <item itemvalue="Jest.Maps.test.js" />
         <item itemvalue="Jest.ConvertDigits.test.js" />
-        <item itemvalue="Jest.DivisionNumber.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +154,8 @@
       <workItem from="1588138456828" duration="2151000" />
       <workItem from="1588240948951" duration="2757000" />
       <workItem from="1588256703424" duration="599000" />
-      <workItem from="1588279703631" duration="6506000" />
+      <workItem from="1588279703631" duration="7105000" />
+      <workItem from="1588382075018" duration="802000" />
     </task>
     <servers />
   </component>
