@@ -23,11 +23,3 @@ test('abbreviateTwoWords("Evan Cole")은 E.C를 반환함',() =>{
 test('abbreviateTwoWords("evan cole")은 E.C를 반환함',() =>{
     expect(abbreviateTwoWords('evan cole')).toBe('E.C');
 });
-
-test('abbreviateTwoWords("P Favuzzi")은 P.F를 반환함',() =>{
-    expect(abbreviateTwoWords('P Favuzzi')).toBe('P.F');
-});
-
-test('abbreviateTwoWords("David Mendieta")은 D.M를 반환함',() =>{
-    expect(abbreviateTwoWords('David Mendieta')).toBe('D.M');
-});
