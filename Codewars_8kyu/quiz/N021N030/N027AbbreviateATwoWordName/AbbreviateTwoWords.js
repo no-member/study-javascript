@@ -1,5 +1,5 @@
 const abbreviateTwoWords = function (name) {
-    return 'S.H';
+    return name.split(' ').map(word => word[0]).join('.');
 };
 
 module.exports = abbreviateTwoWords;
