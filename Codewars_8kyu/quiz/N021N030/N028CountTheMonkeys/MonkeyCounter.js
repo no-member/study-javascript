@@ -4,6 +4,7 @@ const monkeyCounter = function (number) {
     for (let i = 0; i < number; i++) {
        answer[i] = i + 1;
     }
+
     return answer;
 };
 
