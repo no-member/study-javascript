@@ -15,3 +15,8 @@ test('invert([1, 2, 10, -5])은 [-1, -2, -10, 5]를 반환함',() =>{
 test('invert([1, 2, 10, -5, -1])은 [-1, -2, -10, 5, 1]를 반환함',() =>{
     expect(invert([1, 2, 10, -5, -1])).toStrictEqual([-1, -2, -10, 5, 1]);
 });
+
+test('invert([0])은 [0]를 반환함',() =>{
+    expect(invert([0])).toStrictEqual([0]);
+});
+
