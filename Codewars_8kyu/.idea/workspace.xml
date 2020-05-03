@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/quiz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -60,7 +62,7 @@
       <recent name="$PROJECT_DIR$/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.MonkeyCounter.test.js">
+  <component name="RunManager" selected="Jest.Numbers.test.js">
     <configuration name="AbbreviateTwoWords.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -91,17 +93,14 @@
       <test-file value="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="countPositivesSumNegatives([])은 []를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Numbers.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.test.js" />
-      <test-names>
-        <test-name value="countPositivesSumNegatives([])은 []를 반환함" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="MonkeyCounter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" working-dir="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys">
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Numbers.test.js" />
         <item itemvalue="Jest.MonkeyCounter.test.js" />
         <item itemvalue="Node.js.MonkeyCounter.js" />
         <item itemvalue="Jest.AbbreviateTwoWords.test.js" />
         <item itemvalue="Jest.CountPositivesSumNegatives.test.js" />
-        <item itemvalue="Jest.countPositivesSumNegatives([])은 []를 반환함" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +147,7 @@
       <workItem from="1588279703631" duration="7105000" />
       <workItem from="1588382075018" duration="7130000" />
       <workItem from="1588470368070" duration="4441000" />
+      <workItem from="1588485814420" duration="802000" />
     </task>
     <servers />
   </component>
