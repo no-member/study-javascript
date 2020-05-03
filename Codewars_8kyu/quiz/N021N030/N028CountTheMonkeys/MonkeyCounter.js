@@ -6,8 +6,10 @@ const monkeyCounter = function (number) {
     // }
     //
     // return answer;
-    
+
     return [...Array(number).keys()].map(n => n +1);
+
+    // return Array.from({length: number}, (_, i) => i + 1);
 };
 
 module.exports = monkeyCounter;
