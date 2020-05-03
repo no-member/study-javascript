@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/quiz.md" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/quiz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +83,6 @@
       <test-file value="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="Maps.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/N021N030/N025BeginnerLostWithoutAMap/Maps.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="MonkeyCounter.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -117,13 +106,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="MonkeyCounter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" working-dir="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.MonkeyCounter.test.js" />
+        <item itemvalue="Node.js.MonkeyCounter.js" />
         <item itemvalue="Jest.AbbreviateTwoWords.test.js" />
         <item itemvalue="Jest.CountPositivesSumNegatives.test.js" />
         <item itemvalue="Jest.countPositivesSumNegatives([])은 []를 반환함" />
-        <item itemvalue="Jest.Maps.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +148,8 @@
       <workItem from="1588240948951" duration="2757000" />
       <workItem from="1588256703424" duration="599000" />
       <workItem from="1588279703631" duration="7105000" />
-      <workItem from="1588382075018" duration="4236000" />
+      <workItem from="1588382075018" duration="7130000" />
+      <workItem from="1588470368070" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -183,17 +176,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="383" y="135" key="#StringRepeatTest.js_(1)/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585571915910" />
-    <state x="1500" y="124" width="1655" height="834" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588293735937">
+    <state x="1500" y="124" width="1655" height="834" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588470915800">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1585655601116" />
-    <state x="1500" y="124" width="1655" height="834" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588293735937" />
+    <state x="1500" y="124" width="1655" height="834" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588470915800" />
     <state x="95" y="400" width="1177" height="593" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587989383799" />
     <state x="2009" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588256593000">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2009" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588256593000" />
-    <state width="1874" height="312" key="GridCell.Tab.0.bottom" timestamp="1588391846025">
+    <state width="1874" height="248" key="GridCell.Tab.0.bottom" timestamp="1588471600984">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -203,13 +196,13 @@
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.bottom/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224497" />
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250298" />
-    <state width="1874" height="312" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588391846025" />
+    <state width="1874" height="248" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588471600984" />
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326648" />
     <state width="1876" height="211" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209070" />
     <state width="1396" height="309" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854791" />
     <state width="1876" height="200" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151639" />
-    <state width="1874" height="312" key="GridCell.Tab.0.center" timestamp="1588391846025">
+    <state width="1874" height="248" key="GridCell.Tab.0.center" timestamp="1588471600984">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -219,13 +212,13 @@
     <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.center/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224496" />
     <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
-    <state width="1874" height="312" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588391846025" />
+    <state width="1874" height="248" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588471600984" />
     <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326645" />
     <state width="1876" height="211" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209069" />
     <state width="1396" height="309" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1876" height="200" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151637" />
-    <state width="1874" height="312" key="GridCell.Tab.0.left" timestamp="1588391846025">
+    <state width="1874" height="248" key="GridCell.Tab.0.left" timestamp="1588471600984">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -235,13 +228,13 @@
     <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.left/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224496" />
     <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
-    <state width="1874" height="312" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588391846025" />
+    <state width="1874" height="248" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588471600984" />
     <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088832" />
     <state width="1396" height="248" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326644" />
     <state width="1876" height="211" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209069" />
     <state width="1396" height="309" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1876" height="200" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151636" />
-    <state width="1874" height="312" key="GridCell.Tab.0.right" timestamp="1588391846025">
+    <state width="1874" height="248" key="GridCell.Tab.0.right" timestamp="1588471600984">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -251,7 +244,7 @@
     <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.right/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224497" />
     <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
-    <state width="1874" height="312" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588391846025" />
+    <state width="1874" height="248" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588471600984" />
     <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326647" />
     <state width="1876" height="211" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209070" />
