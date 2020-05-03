@@ -1,5 +1,5 @@
 const invert = function (numbers) {
-    return [-1, -2];
+    return numbers.map(n => -n);
 };
 
 module.exports = invert;
