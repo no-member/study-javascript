@@ -20,3 +20,7 @@ test('invert([0])은 [0]를 반환함',() =>{
     expect(invert([0])).toStrictEqual([0]);
 });
 
+test('invert([])은 []를 반환함',() =>{
+    expect(invert([])).toStrictEqual([]);
+});
+
