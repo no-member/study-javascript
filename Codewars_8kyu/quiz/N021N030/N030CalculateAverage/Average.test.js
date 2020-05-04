@@ -7,3 +7,7 @@ test('calculate([1,1])은 1를 반환함',() =>{
 test('calculate([0])은 0를 반환함',() =>{
     expect(calculate([0])).toBe(0);
 });
+
+test('calculate([])은 0를 반환함',() =>{
+    expect(calculate([])).toBe(0);
+});
