@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +41,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N025BeginnerLostWithoutAMap" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N024ConvertNumberToReversedArrayOfDigits" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/quiz" />
       <recent name="$PROJECT_DIR$/quiz/N021N030" />
       <recent name="$PROJECT_DIR$/quiz/N001N020" />
       <recent name="$PROJECT_DIR$/problem" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N025BeginnerLostWithoutAMap" />
+    </key>
   </component>
-  <component name="RunManager" selected="Jest.MonkeyCounter.test.js">
+  <component name="RunManager" selected="Jest.Numbers.test.js">
     <configuration name="AbbreviateTwoWords.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -92,17 +91,14 @@
       <test-file value="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="countPositivesSumNegatives([])은 []를 반환함" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Numbers.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives/CountPositivesSumNegatives.test.js" />
-      <test-names>
-        <test-name value="countPositivesSumNegatives([])은 []를 반환함" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="MonkeyCounter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" working-dir="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys">
@@ -110,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Numbers.test.js" />
         <item itemvalue="Jest.MonkeyCounter.test.js" />
         <item itemvalue="Node.js.MonkeyCounter.js" />
         <item itemvalue="Jest.AbbreviateTwoWords.test.js" />
         <item itemvalue="Jest.CountPositivesSumNegatives.test.js" />
-        <item itemvalue="Jest.countPositivesSumNegatives([])은 []를 반환함" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +144,8 @@
       <workItem from="1588256703424" duration="599000" />
       <workItem from="1588279703631" duration="7105000" />
       <workItem from="1588382075018" duration="7130000" />
-      <workItem from="1588470368070" duration="3823000" />
+      <workItem from="1588470368070" duration="4441000" />
+      <workItem from="1588485814420" duration="1043000" />
     </task>
     <servers />
   </component>
@@ -185,7 +182,7 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2009" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588256593000" />
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom" timestamp="1588484625535">
+    <state width="1874" height="248" key="GridCell.Tab.0.bottom" timestamp="1588550588449">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -195,13 +192,13 @@
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.bottom/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224497" />
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250298" />
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588484625535" />
+    <state width="1874" height="248" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588550588449" />
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326648" />
     <state width="1876" height="211" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209070" />
     <state width="1396" height="309" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854791" />
     <state width="1876" height="200" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151639" />
-    <state width="1874" height="248" key="GridCell.Tab.0.center" timestamp="1588484625535">
+    <state width="1874" height="248" key="GridCell.Tab.0.center" timestamp="1588550588449">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -211,13 +208,13 @@
     <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.center/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224496" />
     <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
-    <state width="1874" height="248" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588484625535" />
+    <state width="1874" height="248" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588550588449" />
     <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326645" />
     <state width="1876" height="211" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209069" />
     <state width="1396" height="309" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1876" height="200" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151637" />
-    <state width="1874" height="248" key="GridCell.Tab.0.left" timestamp="1588484625535">
+    <state width="1874" height="248" key="GridCell.Tab.0.left" timestamp="1588550588449">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -227,13 +224,13 @@
     <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.left/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224496" />
     <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
-    <state width="1874" height="248" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588484625535" />
+    <state width="1874" height="248" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588550588449" />
     <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088832" />
     <state width="1396" height="248" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326644" />
     <state width="1876" height="211" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209069" />
     <state width="1396" height="309" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585616854790" />
     <state width="1876" height="200" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1586313151636" />
-    <state width="1874" height="248" key="GridCell.Tab.0.right" timestamp="1588484625535">
+    <state width="1874" height="248" key="GridCell.Tab.0.right" timestamp="1588550588449">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585656370176" />
@@ -243,7 +240,7 @@
     <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053/1920.312.1366.768@0.27.1920.1053" timestamp="1587788827234" />
     <state width="1874" height="172" key="GridCell.Tab.0.right/0.27.3286.1053@0.27.3286.1053" timestamp="1588169224497" />
     <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@0.27.1366.741" timestamp="1587669250297" />
-    <state width="1874" height="248" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588484625535" />
+    <state width="1874" height="248" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1588550588449" />
     <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1587991088833" />
     <state width="1396" height="248" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1585573326647" />
     <state width="1876" height="211" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586272209070" />
