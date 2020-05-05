@@ -16,3 +16,12 @@ test('bonusCalculate(10, true)은 £100를 반환함',() =>{
     expect(bonusCalculate(10, true)).toBe('£100');
 });
 
+
+test('bonusCalculate(200, true)은 £2000를 반환함',() =>{
+    expect(bonusCalculate(200, true)).toBe('£2000');
+});
+
+test('bonusCalculate(3330, true)은 £3330 반환함',() =>{
+    expect(bonusCalculate(333, true)).toBe('£3330');
+});
+
