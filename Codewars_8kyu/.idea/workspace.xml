@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/N031N040/N031YouCantCodeUnderPressure/quiz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N031N040/N031YouCantCodeUnderPressure/UnderPressure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N031N040/N031YouCantCodeUnderPressure/UnderPressure.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,36 +46,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N021N030/N030CalculateAverage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040/N031YouCantCodeUnderPressure" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N030CalculateAverage" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N026CountOfPositivesSumOfNegatives" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/quiz" />
       <recent name="$PROJECT_DIR$/quiz/N021N030" />
       <recent name="$PROJECT_DIR$/quiz/N001N020" />
       <recent name="$PROJECT_DIR$/problem" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quiz/N031N040/N031YouCantCodeUnderPressure" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N030CalculateAverage" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName" />
+    </key>
   </component>
-  <component name="RunManager" selected="Jest.Average.test.js">
-    <configuration name="AbbreviateTwoWords.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName/AbbreviateTwoWords.test.js" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.UnderPressure.test.js">
     <configuration name="Average.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -105,16 +96,26 @@
       <test-file value="$PROJECT_DIR$/quiz/N021N030/N029InvertValues/Numbers.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="UnderPressure.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/N031N040/N031YouCantCodeUnderPressure/UnderPressure.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="MonkeyCounter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.js" working-dir="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.UnderPressure.test.js" />
         <item itemvalue="Jest.Average.test.js" />
         <item itemvalue="Jest.Numbers.test.js" />
         <item itemvalue="Jest.MonkeyCounter.test.js" />
         <item itemvalue="Node.js.MonkeyCounter.js" />
-        <item itemvalue="Jest.AbbreviateTwoWords.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,7 @@
       <workItem from="1588382075018" duration="7130000" />
       <workItem from="1588470368070" duration="4441000" />
       <workItem from="1588485814420" duration="1043000" />
-      <workItem from="1588644694756" duration="736000" />
+      <workItem from="1588644694756" duration="3227000" />
     </task>
     <servers />
   </component>
