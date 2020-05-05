@@ -1,5 +1,5 @@
 const bonusCalculate = function (salary, CanReceiveBonus) {
-    return null;
+    return '£' + salary;
 };
 
 module.exports = bonusCalculate;
