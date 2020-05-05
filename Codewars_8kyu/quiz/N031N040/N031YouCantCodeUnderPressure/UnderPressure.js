@@ -1,5 +1,5 @@
 const doubleInteger = function (number) {
-    return null;
+    return number * 2;
 };
 
 module.exports = doubleInteger;
