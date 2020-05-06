@@ -6,7 +6,7 @@ Ribonucleic acid, RNA, is the primary messenger molecule in cells. RNA differs s
 
 Create a function which translates a given DNA string into RNA.
 
-For example:
+For bio:
 
 ```java
 new Bio().dnaToRna("GCAT") // returns "GCAU"

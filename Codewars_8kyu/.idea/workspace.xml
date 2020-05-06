@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion/quiz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion/Bio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion/Bio.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion/quiz.md" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion/quiz.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +47,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040/N032DoIGetABonus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion" />
+      <recent name="$PROJECT_DIR$/quiz/N031N040/N032DoIGetABonus" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N030CalculateAverage" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
+      <recent name="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/quiz" />
       <recent name="$PROJECT_DIR$/quiz/N021N030" />
       <recent name="$PROJECT_DIR$/quiz/N001N020" />
       <recent name="$PROJECT_DIR$/problem" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quiz/N031N040/N032DoIGetABonus" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N030CalculateAverage" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N029InvertValues" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys" />
-      <recent name="$PROJECT_DIR$/quiz/N021N030/N027AbbreviateATwoWordName" />
-    </key>
   </component>
-  <component name="RunManager" selected="Jest.Bonus.test.js">
+  <component name="RunManager" selected="Jest.Bio.test.js">
     <configuration name="Average.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -74,6 +77,16 @@
       <test-file value="$PROJECT_DIR$/quiz/N021N030/N030CalculateAverage/Average.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="Bio.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion/Bio.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="Bonus.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -82,16 +95,6 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/quiz/N031N040/N032DoIGetABonus/Bonus.test.js" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MonkeyCounter.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/quiz/N021N030/N028CountTheMonkeys/MonkeyCounter.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="Numbers.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Bio.test.js" />
         <item itemvalue="Jest.Bonus.test.js" />
         <item itemvalue="Jest.bonusCalculate(10, false)은 £10를 반환함" />
         <item itemvalue="Jest.Average.test.js" />
         <item itemvalue="Jest.Numbers.test.js" />
-        <item itemvalue="Jest.MonkeyCounter.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +162,7 @@
       <workItem from="1588382075018" duration="7130000" />
       <workItem from="1588470368070" duration="4441000" />
       <workItem from="1588485814420" duration="1043000" />
+      <workItem from="1588754449800" duration="499000" />
     </task>
     <servers />
   </component>
