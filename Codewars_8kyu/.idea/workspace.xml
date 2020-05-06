@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo/Banjo.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo/Banjo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo/Banjo.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo/Banjo.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +44,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo" />
       <recent name="$PROJECT_DIR$/quiz/N031N040" />
+      <recent name="$PROJECT_DIR$/quiz/N031N040/N035AreYouPlayingBanjo" />
       <recent name="$PROJECT_DIR$/quiz/N031N040/N034SumArrays" />
       <recent name="$PROJECT_DIR$/quiz/N031N040/N033DNAToRNAConversion" />
       <recent name="$PROJECT_DIR$/quiz/N031N040/N032DoIGetABonus" />
