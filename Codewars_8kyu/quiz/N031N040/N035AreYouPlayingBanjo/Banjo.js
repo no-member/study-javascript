@@ -1,8 +1,5 @@
 const areYouPlayingBanjo = function (name) {
-    if (name.toUpperCase().startsWith('R')){
-        return `${name} plays banjo`;
-    }
-    return `${name} does not play banjo`;
+    return name.toUpperCase().startsWith('R') ? `${name} plays banjo` : `${name} does not play banjo`;
 };
 
 module.exports = areYouPlayingBanjo;
