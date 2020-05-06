@@ -1,5 +1,5 @@
 const dntToRna = function (dna) {
-    return null;
+    return 'U';
 };
 
 module.exports = dntToRna;
