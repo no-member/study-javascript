@@ -15,3 +15,7 @@ test('dnaToRna("TTTT")은 "UUUU"를 반환함',() =>{
 test('dnaToRna("GCAT")은 "GCAU"를 반환함',() =>{
     expect(dnaToRna('GCAT')).toBe('GCAU');
 });
+
+test('dnaToRna("GACCGCCGCC")은 "GACCGCCGCC"를 반환함',() =>{
+    expect(dnaToRna('GACCGCCGCC')).toBe('GACCGCCGCC');
+});
