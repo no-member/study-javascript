@@ -27,3 +27,7 @@ test('sum([-3, -1, -10, 0, -2])은 -16를 반환함', () => {
 test('sum([])은 0를 반환함', () => {
     expect(sum([])).toBe(0);
 });
+
+test('sum(null)은 0를 반환함', () => {
+    expect(sum(null)).toBe(0);
+});
