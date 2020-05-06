@@ -1,6 +1,6 @@
 const dntToRna = function (dna) {
-    // return 'U'.repeat(dna.length);
-    return dna.replace(/T/g, 'U')
+    return dna.replace(/T/g, 'U');
+    // return dna.split("T").join("U");
 };
 
 module.exports = dntToRna;
