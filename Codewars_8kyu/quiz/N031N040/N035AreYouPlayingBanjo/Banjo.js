@@ -1,5 +1,5 @@
 const areYouPlayingBanjo = function (name) {
-    return null;
+    return 'Martin does not play banjo';
 };
 
 module.exports = areYouPlayingBanjo;
