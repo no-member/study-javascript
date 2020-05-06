@@ -11,3 +11,7 @@ test('areYouPlayingBanjo("Mark")은 Mark does not play banjo를 반환함',() =>
 test('areYouPlayingBanjo("Rikke")은 Rikke plays banjo를 반환함',() =>{
     expect(areYouPlayingBanjo("Rikke")).toBe('Rikke plays banjo');
 });
+
+test('areYouPlayingBanjo("rikke")은 rikke plays banjo를 반환함',() =>{
+    expect(areYouPlayingBanjo("rikke")).toBe('rikke plays banjo');
+});
