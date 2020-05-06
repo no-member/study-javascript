@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/N031N040/N034SumArrays/SumArrays.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/N031N040/N034SumArrays/SumArrays.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="2e42e723-e545-4b96-8be7-e95a5437efad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040/N034SumArrays" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quiz/N031N040" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -160,7 +157,7 @@
       <workItem from="1588382075018" duration="7130000" />
       <workItem from="1588470368070" duration="4441000" />
       <workItem from="1588485814420" duration="1043000" />
-      <workItem from="1588754449800" duration="3400000" />
+      <workItem from="1588754449800" duration="3897000" />
     </task>
     <servers />
   </component>
