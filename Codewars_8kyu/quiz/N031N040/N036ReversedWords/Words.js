@@ -1,5 +1,5 @@
 const reverse = function (sentence) {
-    return 'world! hello';
+    return sentence.split(' ').reverse().join(' ');
 };
 
 module.exports = reverse;
