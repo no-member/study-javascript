@@ -15,3 +15,7 @@ test('reverse("foobar")은 "foobar"를 반환함',() =>{
 test('reverse("")은 ""를 반환함',() =>{
     expect(reverse('')).toBe('');
 });
+
+test('reverse()은 ""를 반환함',() =>{
+    expect(reverse()).toBe('');
+});
