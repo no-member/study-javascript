@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e67c3734-a09f-45b2-8051-145b2b4b21ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/../Codewars_8kyu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codewars_8kyu/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 760e9e8f5088c18a84fe5c3ada384f1df12dae6c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +38,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Jest.Accum.test.js">
     <configuration name="Accum.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -115,9 +120,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585673436429</updated>
+<<<<<<< HEAD
+      <workItem from="1585673438565" duration="7429000" />
+      <workItem from="1585737599357" duration="676000" />
+=======
       <workItem from="1585673438565" duration="8113000" />
       <workItem from="1585738459008" duration="1399000" />
       <workItem from="1585824811119" duration="4666000" />
+>>>>>>> 760e9e8f5088c18a84fe5c3ada384f1df12dae6c
     </task>
     <servers />
   </component>
@@ -199,7 +209,16 @@
     <state x="2075" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585738460042">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
+<<<<<<< HEAD
+    <state width="1876" height="307" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585714981817" />
+    <state width="1876" height="307" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1585717619279" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1585738231803">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1585738231803" />
+=======
     <state x="2075" y="372" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585738460042" />
+>>>>>>> 760e9e8f5088c18a84fe5c3ada384f1df12dae6c
     <state x="1687" y="267" key="new project wizard" timestamp="1585674207201">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
