@@ -19,3 +19,7 @@ test('sumWithoutMinMax([999])은 0를 반환함',() =>{
 test('sumWithoutMinMax([])은 0를 반환함',() =>{
     expect(sumWithoutMinMax([])).toBe(0);
 });
+
+test('sumWithoutMinMax(null)은 0를 반환함',() =>{
+    expect(sumWithoutMinMax(null)).toBe(0);
+});
