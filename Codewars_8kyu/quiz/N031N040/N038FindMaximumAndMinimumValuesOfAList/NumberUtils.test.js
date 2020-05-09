@@ -1,5 +1,4 @@
-const {max} = require('./NumberUtils');
-const {min} = require('./NumberUtils');
+const {max, min} = require('./NumberUtils');
 
 describe('max 테스트', () => {
     test('max([1, 2])은 2를 반환함', () => {
