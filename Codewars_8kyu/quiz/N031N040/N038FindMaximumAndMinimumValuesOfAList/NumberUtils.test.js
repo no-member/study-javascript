@@ -15,3 +15,7 @@ test('max([-2, -10, -999])은 -2를 반환함', () => {
 test('max([])은 0를 반환함', () => {
     expect(max([])).toBe(0);
 });
+
+test('max(null)은 0를 반환함', () => {
+    expect(max(null)).toBe(0);
+});
