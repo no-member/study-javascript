@@ -1,4 +1,5 @@
-const max = function (num1, num2) {
+const max = function (numbers) {
+   return Math.max(...numbers);
 };
 
 module.exports = max;
