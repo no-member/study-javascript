@@ -1,4 +1,5 @@
-const max = require('./NumberUtils');
+const {max} = require('./NumberUtils');
+const {min} = require('./NumberUtils');
 
 test('max([1, 2])은 2를 반환함', () => {
     expect(max([1, 2])).toBe(2);
@@ -18,4 +19,8 @@ test('max([])은 0를 반환함', () => {
 
 test('max(null)은 0를 반환함', () => {
     expect(max(null)).toBe(0);
+});
+
+test('min([1, 2])은 1를 반환함', () => {
+    expect(min([1, 2])).toBe(1);
 });
