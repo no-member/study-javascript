@@ -1,15 +1,15 @@
-const isNullOrEmpty = function (list) {
+const isNullOrEmpty = (list) => {
     return !list || list.length === 0;
 };
 
-const max = function (numbers) {
+const max = (numbers) => {
     if (isNullOrEmpty(numbers)) {
         return 0;
     }
     return Math.max(...numbers);
 };
 
-const min = function (numbers) {
+const min = (numbers) => {
     if (isNullOrEmpty(numbers)) {
         return 0;
     }
