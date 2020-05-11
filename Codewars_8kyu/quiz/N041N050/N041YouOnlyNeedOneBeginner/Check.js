@@ -1,5 +1,5 @@
 const check = function (list, element) {
-    return null;
+    return list.includes(element);
 };
 
 module.exports = check;
