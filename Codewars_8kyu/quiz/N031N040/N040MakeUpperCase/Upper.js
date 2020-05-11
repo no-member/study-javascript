@@ -1,4 +1,4 @@
-const makeUpperCase = function (word) {
+const makeUpperCase = (word) => {
     return word.toUpperCase();
 };
 
