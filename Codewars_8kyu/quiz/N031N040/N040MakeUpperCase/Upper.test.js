@@ -11,3 +11,11 @@ test('makeUpperCase("hi")은 "HI"를 반환함',() =>{
 test('makeUpperCase("my")은 "MY"를 반환함',() =>{
     expect(makeUpperCase('my')).toBe('MY');
 });
+
+test('makeUpperCase("my")은 "MY"를 반환함',() =>{
+    expect(makeUpperCase('my')).toBe('MY');
+});
+
+test('makeUpperCase("")은 ""를 반환함',() =>{
+    expect(makeUpperCase('')).toBe('');
+});
