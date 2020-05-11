@@ -1,5 +1,5 @@
 const upper = function (word) {
-    return null;
+    return word.toUpperCase();
 };
 
 module.exports = upper;
