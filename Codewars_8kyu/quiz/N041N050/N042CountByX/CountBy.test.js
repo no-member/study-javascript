@@ -9,5 +9,9 @@ test('countBy(1, 6)은 [1,2,3,4,5,6]를 반환함', () => {
 });
 
 test('countBy(2, 5)은 [2,4,6,8,10]를 반환함', () => {
-    expect(countBy(2, 5)).toStrictEqual([2,4,6,8,10]);
+    expect(countBy(2, 5)).toStrictEqual([2, 4, 6, 8, 10]);
+});
+
+test('countBy(3, 2)은 [3, 6]를 반환함', () => {
+    expect(countBy(3, 2)).toStrictEqual([3, 6]);
 });
