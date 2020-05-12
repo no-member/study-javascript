@@ -1,5 +1,5 @@
 const booleanToString = function (bool) {
-    return null;
+    return  bool.toString();
 };
 
 module.exports = booleanToString;
