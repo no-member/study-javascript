@@ -15,3 +15,7 @@ test('countBy(3, 2)은 [3, 6]를 반환함', () => {
 test('countBy(1, 0)은 []를 반환함', () => {
     expect(countBy(1, 0)).toStrictEqual([]);
 });
+
+test('countBy(0, 2)은 [0, 0]를 반환함', () => {
+    expect(countBy(0, 2)).toStrictEqual([0, 0]);
+});
