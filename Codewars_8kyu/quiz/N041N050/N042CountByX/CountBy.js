@@ -1,5 +1,5 @@
 const countBy = function (interval, repeat) {
-    return [...Array(repeat).keys()].map(i => (i + 1) * interval);
+    return [...Array(repeat).keys()].map(n => (n + 1) * interval);
 };
 
 module.exports = countBy;
