@@ -3,7 +3,8 @@ const Points = (function () {
     }
 
     Points.sum = function (games) {
-        return games.map(game => this.compare(game.split(':'))).reduce((x, y) => x + y, 0);
+        return games.map(game => this.compare(game.split(':')))
+            .reduce((x, y) => x + y, 0);
     };
 
     Points.compare = function (game) {
