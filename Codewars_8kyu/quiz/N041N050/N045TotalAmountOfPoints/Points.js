@@ -7,8 +7,7 @@ const Points = (function () {
     };
 
     Points.compare = function (game) {
-        const firstNumber = game[0];
-        const secondNumber = game[1];
+        const [firstNumber, secondNumber] = [...game];
 
         if (firstNumber > secondNumber) {
             return 3;
