@@ -1,5 +1,5 @@
 const sentenceSmash = function (words) {
-    return null;
+    return words.join(' ');
 };
 
 module.exports = sentenceSmash;
