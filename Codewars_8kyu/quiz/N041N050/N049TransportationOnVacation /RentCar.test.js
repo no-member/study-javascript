@@ -14,4 +14,8 @@ describe('숙박 일수가 7일 미만의 경우 테스트', () => {
     test('calculateCost(3)은 100을 반환한다.', () => {
         expect(calculateCost(3)).toBe(100);
     });
+
+    test('calculateCost(5)은 180을 반환한다.', () => {
+        expect(calculateCost(5)).toBe(180);
+    });
 });
