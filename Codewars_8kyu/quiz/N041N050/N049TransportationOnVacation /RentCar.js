@@ -5,7 +5,11 @@ const calculateCost = function (days) {
     if (days < 3) {
         return regularCost;
     }
-    return regularCost - 20;
+    if (days < 7) {
+        return regularCost - 20;
+    }
+
+    return regularCost - 50;
 };
 
 module.exports = calculateCost;
