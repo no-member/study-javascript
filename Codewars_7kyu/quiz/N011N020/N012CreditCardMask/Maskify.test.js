@@ -1,13 +1,17 @@
 const Maskify = require('./Maskify');
 
-test('maskify("1")은 "1"를 반환함', () => {
-    expect(Maskify.maskify('1')).toBe('1');
+describe('4글자 이하인 경우', () => {
+    test('"1"은 "1"를 반환', () => {
+        expect(Maskify.maskify('1')).toBe('1');
+    });
+
+    test('"shin"은 "shin"를 반환', () => {
+        expect(Maskify.maskify('shin')).toBe('shin');
+    });
 });
 
-test('maskify("shin")은 "shin"를 반환함', () => {
-    expect(Maskify.maskify('shin')).toBe('shin');
-});
-
-test('maskify("Spooky")은 "##ooky"를 반환함', () => {
-    expect(Maskify.maskify('Spooky')).toBe('##ooky');
+describe('4글자 초과인 경우', () => {
+    test('"Spooky"은 "##ooky"를 반환', () => {
+        expect(Maskify.maskify('Spooky')).toBe('##ooky');
+    });
 });
