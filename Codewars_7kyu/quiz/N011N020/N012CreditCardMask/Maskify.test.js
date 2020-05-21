@@ -14,4 +14,8 @@ describe('4글자 초과인 경우', () => {
     test('"Spooky"은 "##ooky"를 반환', () => {
         expect(Maskify.maskify('Spooky')).toBe('##ooky');
     });
+
+    test('"Nananananananananananananananana Batman!"은 "####################################man!', () => {
+        expect(Maskify.maskify('Nananananananananananananananana Batman!')).toBe('####################################man!');
+    });
 });
