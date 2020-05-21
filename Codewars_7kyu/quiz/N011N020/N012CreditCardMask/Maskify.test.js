@@ -7,3 +7,7 @@ test('maskify("1")은 "1"를 반환함', () => {
 test('maskify("shin")은 "shin"를 반환함', () => {
     expect(Maskify.maskify('shin')).toBe('shin');
 });
+
+test('maskify("Spooky")은 "##ooky"를 반환함', () => {
+    expect(Maskify.maskify('Spooky')).toBe('##ooky');
+});
