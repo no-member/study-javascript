@@ -10,6 +10,12 @@ describe('return true', () => {
     });
 });
 
-test('isTriangle(2, 2, 4)은 false를 반환함', () => {
-    expect(Triangle.isTriangle(2, 2, 4)).toBe(false);
+describe('return false', () => {
+    test('isTriangle(2, 2, 4)', () => {
+        expect(Triangle.isTriangle(2, 2, 4)).toBe(false);
+    });
+
+    test('isTriangle(1, 9, 10)', () => {
+        expect(Triangle.isTriangle(1, 9, 10)).toBe(false);
+    });
 });
