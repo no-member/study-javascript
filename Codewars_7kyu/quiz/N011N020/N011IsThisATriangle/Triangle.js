@@ -1,6 +1,6 @@
 class Triangle {
     static isTriangle(a, b, c) {
-        return null;
+        return true;
     }
 }
 
