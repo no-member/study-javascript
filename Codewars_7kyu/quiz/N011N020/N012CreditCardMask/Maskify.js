@@ -1,6 +1,6 @@
 class Maskify {
     static maskify(secret) {
-        return null
+        return secret
     }
 }
 
