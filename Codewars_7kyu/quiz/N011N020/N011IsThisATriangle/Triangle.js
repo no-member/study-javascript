@@ -7,7 +7,10 @@ class Triangle {
         //
         // return sumSideWithoutLongest > longestSide;
 
-        return a + b > c && a + c > b && b + c > a;
+        // return a + b > c && a + c > b && b + c > a;
+
+        [a, b, c] = [a, b, c].sort((x, y) => x - y);
+        return a + b > c;
     }
 
     // static findLongest(triangle) {
