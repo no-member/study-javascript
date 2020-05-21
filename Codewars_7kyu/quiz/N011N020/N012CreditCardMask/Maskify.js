@@ -1,8 +1,13 @@
 class Maskify {
     static maskify(secret) {
-        if (secret.length > 4) {
-            return "#".repeat(secret.length - 4) + secret.slice(secret.length - 4);
+        const visibleLength = 4;
+        const secretLength = secret.length;
+        const invisibleLength = secretLength - visibleLength;
+
+        if (secretLength > visibleLength) {
+            return "#".repeat(invisibleLength) + secret.slice(invisibleLength);
         }
+
         return secret
     }
 }
