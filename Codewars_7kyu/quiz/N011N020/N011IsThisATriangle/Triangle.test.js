@@ -1,6 +1,6 @@
 const Triangle = require('./Triangle');
 
-describe('true를 반환하는 테스트들', () => {
+describe('return true', () => {
     test('isTriangle(1, 2, 2)', () => {
         expect(Triangle.isTriangle(1, 2, 2)).toBe(true);
     });
