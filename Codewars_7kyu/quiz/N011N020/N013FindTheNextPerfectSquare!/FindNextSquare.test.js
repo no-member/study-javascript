@@ -1,10 +1,5 @@
-const Example = require('./Example');
+const Square = require('./Square');
 
-test('sum(1,1)은 2를 반환함', () => {
-    const ex = new Example();
-    expect(ex.sum(1, 1)).toBe(2);
-});
-
-test('multiply(1,1)은 1를 반환함', () => {
-    expect(Example.multiply(1, 1)).toBe(1);
+test('findNextSquare(1)은 4를 반환함', () => {
+    expect(Square.findNextSquare(1)).toBe(4);
 });

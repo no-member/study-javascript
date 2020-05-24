@@ -5,6 +5,6 @@ test('sum(1,1)은 2를 반환함', () => {
     expect(ex.sum(1, 1)).toBe(2);
 });
 
-test('multiply(1,1)은 1를 반환함', () => {
+test('findNextSquare(1,1)은 1를 반환함', () => {
     expect(Example.multiply(1, 1)).toBe(1);
 });
