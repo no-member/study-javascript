@@ -14,6 +14,12 @@ describe('should return the next square for perfect squares', () => {
     });
 });
 
-test('findNextSquare(2)은 -1를 반환함', () => {
-    expect(Square.findNextSquare(2)).toBe(-1);
+describe('should return -1 for numbers which aren\'t perfect squares"', () => {
+    test('findNextSquare(2)은 -1를 반환함', () => {
+        expect(Square.findNextSquare(2)).toBe(-1);
+    });
+
+    test('findNextSquare(10)은 -1를 반환함', () => {
+        expect(Square.findNextSquare(10)).toBe(-1);
+    });
 });
