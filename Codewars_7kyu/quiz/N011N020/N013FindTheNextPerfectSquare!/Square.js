@@ -1,6 +1,10 @@
 class Square {
     static findNextSquare(num) {
-        return Math.pow((Math.sqrt(num) + 1), 2);
+        const squareNumber = Math.sqrt(num);
+        if (Math.floor(squareNumber) === squareNumber) {
+            return Math.pow((squareNumber + 1), 2);
+        }
+        return -1;
     }
 }
 

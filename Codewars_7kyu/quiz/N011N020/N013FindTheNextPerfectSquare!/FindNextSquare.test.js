@@ -13,3 +13,7 @@ describe('should return the next square for perfect squares', () => {
         expect(Square.findNextSquare(15241383936)).toBe(15241630849);
     });
 });
+
+test('findNextSquare(2)은 -1를 반환함', () => {
+    expect(Square.findNextSquare(2)).toBe(-1);
+});
