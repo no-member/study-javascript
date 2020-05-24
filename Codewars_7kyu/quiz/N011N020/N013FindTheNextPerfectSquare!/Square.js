@@ -1,6 +1,6 @@
 class Square {
     static findNextSquare(num) {
-        return 4;
+        return Math.pow((Math.sqrt(num) + 1), 2);
     }
 }
 
