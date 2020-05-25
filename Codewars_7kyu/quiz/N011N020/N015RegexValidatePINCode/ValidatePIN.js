@@ -1,5 +1,6 @@
 class ValidatePIN {
     static validatePin(pin) {
+        return true;
     }
 }
 
