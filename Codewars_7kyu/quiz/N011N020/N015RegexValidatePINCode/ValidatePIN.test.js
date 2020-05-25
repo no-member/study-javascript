@@ -19,3 +19,21 @@ describe('when pass pin validate return true', () => {
         expect(ValidatePIN.validatePin("1A3400")).toBe(false);
     });
 });
+
+describe('validate length test', () => {
+    test('ValidatePIN.validatePin("1")은 false 반환함', () => {
+        expect(ValidatePIN.validatePin("1")).toBe(false);
+    });
+
+    test('ValidatePIN.validatePin("12")은 false 반환함', () => {
+        expect(ValidatePIN.validatePin("12")).toBe(false);
+    });
+
+    test('ValidatePIN.validatePin("123")은 false 반환함', () => {
+        expect(ValidatePIN.validatePin("123")).toBe(false);
+    });
+
+    test('ValidatePIN.validatePin("12544")은 false 반환함', () => {
+        expect(ValidatePIN.validatePin("12544")).toBe(false);
+    });
+});
