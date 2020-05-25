@@ -1,6 +1,6 @@
 class ValidatePIN {
     static validatePin(pin) {
-        return true;
+        return !!pin.match(/[0-9]{4}/);
     }
 }
 
