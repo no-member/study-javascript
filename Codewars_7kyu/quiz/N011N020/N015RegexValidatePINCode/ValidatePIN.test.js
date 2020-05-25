@@ -3,3 +3,7 @@ const ValidatePIN = require('./ValidatePIN');
 test('ValidatePIN.validatePin("1234")은 true 반환함', () => {
     expect(ValidatePIN.validatePin("1234")).toBe(true);
 });
+
+test('ValidatePIN.validatePin("123a")은 false 반환함', () => {
+    expect(ValidatePIN.validatePin("123a")).toBe(false);
+});
