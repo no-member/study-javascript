@@ -4,16 +4,20 @@ class Binary {
     }
 
     static numToBinary(num) {
-        let binary = '';
-        while (num > 0) {
-            const remainder = num % 2;
-            binary = remainder + binary;
-
-            num = Math.floor(num / 2);
-        }
-
-        return binary;
+        return (num >>> 0).toString(2)
     }
+
+    // static numToBinary(num) {
+    //     let binary = '';
+    //     while (num > 0) {
+    //         const remainder = num % 2;
+    //         binary = remainder + binary;
+    //
+    //         num = Math.floor(num / 2);
+    //     }
+    //
+    //     return binary;
+    // }
 }
 
 module.exports = Binary;
