@@ -1,5 +1,6 @@
 class BinaryAddition {
-    static add(s) {
+    static add(num1, num2) {
+        return '10'
     }
 }
 
