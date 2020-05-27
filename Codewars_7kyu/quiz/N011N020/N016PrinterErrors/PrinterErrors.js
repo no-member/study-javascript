@@ -1,6 +1,6 @@
 class PrinterErrors {
     static printerErrors(s) {
-        return s.replace(/[a-m]/g, '').length + '/' + s.length
+        return s.replace(/[a-m]/g, '').length + '/' + s.length;
     }
 }
 
