@@ -1,6 +1,8 @@
 class Divisors {
     static divisors(n) {
-        return [2];
+        const range2ToN = [...Array(n).keys()].filter(x => x>1)
+
+        return range2ToN.filter(x => n%x === 0)
     }
 }
 
