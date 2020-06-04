@@ -16,6 +16,6 @@ describe('divisors return array', () => {
 describe('divisors return string', () => {
     test('test1', () => {
         expect(Divisors.FindDivisor(2))
-            .toStrictEqual('2 is prime ');
+            .toStrictEqual('2 is prime');
     });
 })
