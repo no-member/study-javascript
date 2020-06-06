@@ -8,5 +8,10 @@ describe('#countPassenger test => bus stop just one', () => {
     test('test2', () => {
         expect(Divisors.countPassenger([[3,1]])).toStrictEqual(2);
     });
+
+    test('test3', () => {
+        expect(Divisors.countPassenger([[12,12]])).toStrictEqual(0);
+    });
+
 });
 
