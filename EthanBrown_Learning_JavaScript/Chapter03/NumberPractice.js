@@ -17,4 +17,10 @@ const nInf2 = Number.NEGATIVE_INFINITY;
 const nan2 = Number.NaN;
 const inf2 = Number.POSITIVE_INFINITY;
 
+const s = 'hello';
+console.log(s.toUpperCase());
+console.log('');
 
+s.rating = 3;
+console.log(s.rating);
+console.log('');
