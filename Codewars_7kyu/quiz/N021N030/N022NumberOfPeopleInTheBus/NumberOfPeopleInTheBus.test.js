@@ -15,3 +15,10 @@ describe('#countPassenger test => bus stop just one', () => {
 
 });
 
+describe('#countPassenger test => bus stop two bus stop', () => {
+    test('test1', () => {
+        expect(Divisors.countPassenger([[10,0], [9, 4]])).toStrictEqual(15);
+    });
+
+});
+
