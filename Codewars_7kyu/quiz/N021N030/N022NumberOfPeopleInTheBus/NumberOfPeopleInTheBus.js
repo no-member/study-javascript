@@ -1,6 +1,6 @@
 class NumberOfPeopleInTheBus {
-    static count(passenger) {
-
+    static countPassenger(passenger) {
+        return 10;
     }
 }
 
