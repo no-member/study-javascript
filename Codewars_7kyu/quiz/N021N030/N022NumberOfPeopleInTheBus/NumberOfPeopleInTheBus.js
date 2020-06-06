@@ -1,6 +1,6 @@
 class NumberOfPeopleInTheBus {
     static countPassenger(passenger) {
-        return 10;
+        return passenger[0][0] - passenger[0][1];
     }
 }
 
