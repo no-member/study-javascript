@@ -13,5 +13,9 @@ describe('#invert test', () => {
         expect(Invert.invert([1, 3, -5])).toStrictEqual([-1, -3, 5]);
     });
 
+    test('test4', () => {
+        expect(Invert.invert([1, 3, -5, 0])).toStrictEqual([-1, -3, 5, 0]);
+    });
+
 });
 
