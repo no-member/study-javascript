@@ -1,6 +1,6 @@
 class NthSeries {
     static seriesSum(number) {
-        return
+        return "1.00"
     }
 }
 
