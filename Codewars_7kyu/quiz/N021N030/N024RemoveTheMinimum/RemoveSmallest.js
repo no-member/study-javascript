@@ -1,5 +1,5 @@
 class RemoveSmallest {
-    static removeSmallest(number) {
+    static removeSmallest(numbers) {
     }
 }
 
