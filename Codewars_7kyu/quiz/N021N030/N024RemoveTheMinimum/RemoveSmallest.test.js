@@ -22,5 +22,9 @@ describe('#removeSmallest special tests', () => {
     test('test1', () => {
         expect(RemoveSmallest.removeSmallest([1, 3, 1])).toStrictEqual([3, 1]);
     });
+
+    test('test2', () => {
+        expect(RemoveSmallest.removeSmallest([])).toStrictEqual([]);
+    });
 });
 
