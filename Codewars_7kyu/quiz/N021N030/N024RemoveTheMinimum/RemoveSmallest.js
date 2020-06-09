@@ -7,6 +7,8 @@ class RemoveSmallest {
         // numbersCopy.splice(minNumberIndex, 1);
         // return numbersCopy;
 
+        // return [...numbersCopy.slice(0, minNumberIndex), ...numbersCopy.slice(numbersCopy + 1)]
+
         return numbersCopy.filter((n, i) => i !== minNumberIndex );
     }
 }
