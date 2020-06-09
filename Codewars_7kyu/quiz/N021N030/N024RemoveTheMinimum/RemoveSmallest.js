@@ -4,8 +4,10 @@ class RemoveSmallest {
         const minNumber = Math.min(...numbersCopy);
         const minNumberIndex = numbersCopy.indexOf(minNumber);
 
-        numbersCopy.splice(minNumberIndex, 1);
-        return numbersCopy;
+        // numbersCopy.splice(minNumberIndex, 1);
+        // return numbersCopy;
+
+        return numbersCopy.filter((n, i) => i !== minNumberIndex );
     }
 }
 
