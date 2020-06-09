@@ -1,6 +1,6 @@
 class MyStringUtils {
     static isEndWith(word, ending) {
-        return true;
+        return word.endsWith(ending);
     }
 }
 
