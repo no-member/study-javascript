@@ -1,9 +1,11 @@
 class RemoveSmallest {
     static removeSmallest(numbers) {
         let numbersCopy = [...numbers];
-         const minNumber = Math.min(...numbersCopy);
+        const minNumber = Math.min(...numbersCopy);
+        const minNumberIndex = numbersCopy.indexOf(minNumber);
 
-        return numbersCopy.filter(n => n !== minNumber);
+        numbersCopy.splice(minNumberIndex, 1);
+        return numbersCopy;
     }
 }
 
