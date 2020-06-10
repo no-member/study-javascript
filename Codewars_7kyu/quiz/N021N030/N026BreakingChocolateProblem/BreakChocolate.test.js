@@ -18,4 +18,8 @@ describe('#breakChocolate exception tests', () => {
     test('test1', () => {
         expect(BreakChocolate.breakChocolate(0, 5)).toStrictEqual(0);
     });
+
+    test('test2', () => {
+        expect(BreakChocolate.breakChocolate(1, 0)).toStrictEqual(0);
+    });
 });
