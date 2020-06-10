@@ -22,4 +22,8 @@ describe('#breakChocolate exception tests', () => {
     test('test2', () => {
         expect(BreakChocolate.breakChocolate(1, 0)).toStrictEqual(0);
     });
+
+    test('test3', () => {
+        expect(BreakChocolate.breakChocolate(0, 0)).toStrictEqual(0);
+    });
 });
