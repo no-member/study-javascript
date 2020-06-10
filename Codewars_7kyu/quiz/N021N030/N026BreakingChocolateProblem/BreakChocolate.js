@@ -1,5 +1,6 @@
 class BreakChocolate {
     static breakChocolate(word, ending) {
+        return 0;
     }
 }
 
