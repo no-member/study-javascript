@@ -1,6 +1,7 @@
 class BreakChocolate {
-    static breakChocolate(word, ending) {
-        return word === 0 || ending === 0 ? 0 : word * ending - 1;
+    static breakChocolate(width, height) {
+        // return width === 0 || height === 0 ? 0 : width * height - 1;
+        return Math.max(0, width * height - 1);
     }
 }
 
