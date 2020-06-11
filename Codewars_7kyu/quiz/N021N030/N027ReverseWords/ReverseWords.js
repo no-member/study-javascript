@@ -1,17 +1,21 @@
 class ReverseWords {
     static reverseSentence(words) {
+        if (words === undefined) {
+            return new Error('Please input words')
+        }
+        
         return words.split(' ').map(this.reverseOneWord).join(' ');
     }
 
-    static reverseOneWord(words) {
-        if (words === undefined ){
-            throw new Error('please input a word')
+    static reverseOneWord(word) {
+        if (word === undefined ){
+            throw new Error('Please input a word')
         }
-        if (words.split(' ').length !== 1){
-            throw new Error(`${words} is not a word`)
+        if (word.split(' ').length !== 1){
+            throw new Error(`${word} is not a word`)
         }
 
-        return [...words].reverse().join('');
+        return [...word].reverse().join('');
     }
 }
 

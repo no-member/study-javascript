@@ -1,7 +1,20 @@
 const ReverseWords = require('./ReverseWords');
 
 describe('#reverseSentence', () => {
-    describe('with no word', () => {
+
+    describe('with no params', () => {
+        it('should return empty string', function () {
+            expect(() => ReverseWords.reverseSentence().toThrowError());
+        });
+    });
+
+    describe('with empty string', () => {
+        it('should return empty string', function () {
+            expect(ReverseWords.reverseSentence('')).toStrictEqual('');
+        });
+    });
+
+    describe('with empty string', () => {
         it('should return empty string', function () {
             expect(ReverseWords.reverseSentence('')).toStrictEqual('');
         });
