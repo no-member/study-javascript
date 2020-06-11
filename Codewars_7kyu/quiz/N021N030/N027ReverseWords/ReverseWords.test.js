@@ -1,19 +1,19 @@
 const ReverseWords = require('./ReverseWords');
 
-describe('#reverse', () => {
+describe('#reverseSentence', () => {
     describe('with a one word', () => {
         it('should return reversed word test1', function () {
-            expect(ReverseWords.reverse('hi')).toStrictEqual('ih');
+            expect(ReverseWords.reverseSentence('hi')).toStrictEqual('ih');
         });
 
         it('should return reversed word test2', function () {
-            expect(ReverseWords.reverse('word')).toStrictEqual('drow');
+            expect(ReverseWords.reverseSentence('word')).toStrictEqual('drow');
         });
     });
 
     describe('with a many words', () => {
         it('should return reversed word test1', function () {
-            expect(ReverseWords.reverse('hi my friend')).toStrictEqual('ih ym dneirf');
+            expect(ReverseWords.reverseSentence('hi my friend')).toStrictEqual('ih ym dneirf');
         });
     });
 });

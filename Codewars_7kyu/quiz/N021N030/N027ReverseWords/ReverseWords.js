@@ -1,5 +1,5 @@
 class ReverseWords {
-    static reverse(words) {
+    static reverseSentence(words) {
         if (words === 'hi my friend'){
             return 'ih ym dneirf';
         }
