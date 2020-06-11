@@ -15,6 +15,10 @@ describe('#reverseSentence', () => {
         it('should return reversed word test1', function () {
             expect(ReverseWords.reverseSentence('hi my friend')).toStrictEqual('ih ym dneirf');
         });
+
+        it('should return reversed word test2', function () {
+            expect(ReverseWords.reverseSentence('hi my')).toStrictEqual('ih ym');
+        });
     });
 });
 
