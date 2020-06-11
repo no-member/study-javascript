@@ -20,6 +20,13 @@ describe('#reverseSentence', () => {
             expect(ReverseWords.reverseSentence('hi my')).toStrictEqual('ih ym');
         });
     });
+
+    describe('with a many words have a lot of white space', () => {
+        it('should return reversed word test1', function () {
+            expect(ReverseWords.reverseSentence('hi  my   friend')).toStrictEqual('ih  ym   dneirf');
+        });
+    });
+
 });
 
 describe('#reverseOneWord', () => {
