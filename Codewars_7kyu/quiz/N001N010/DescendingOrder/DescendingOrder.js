@@ -6,7 +6,7 @@ const descendingOrder = function (number) {
 };
 
 // const descendingOrder = function (number) {
-//     const descendingStringNumber = number.toString().split('').sort().reverse().join('');
+//     const descendingStringNumber = number.toString().split('').sort().reverseSentence().join('');
 //     return Number(descendingStringNumber);
 // };
 
