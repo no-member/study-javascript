@@ -10,4 +10,10 @@ describe('#reverse', () => {
             expect(ReverseWords.reverse('word')).toStrictEqual('drow');
         });
     });
+
+    describe('with a many words', () => {
+        it('should return reversed word test1', function () {
+            expect(ReverseWords.reverse('hi my friend')).toStrictEqual('ih ym dneirf');
+        });
+    });
 });
