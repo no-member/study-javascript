@@ -18,7 +18,7 @@ describe('#reverse', () => {
     });
 });
 
-describe('#reverseOneWord',() => {
+describe('#reverseOneWord', () => {
     describe('with no params', () => {
         it('should return error', function () {
             expect(() => ReverseWords.reverseOneWord().toThrowError());
@@ -27,6 +27,11 @@ describe('#reverseOneWord',() => {
     describe('with a one word', () => {
         it('should return reversed one word test1', function () {
             expect(ReverseWords.reverseOneWord('hi')).toStrictEqual('ih');
+        });
+    });
+    describe('with more than one word', () => {
+        it('should return error', function () {
+            expect(() => ReverseWords.reverseOneWord('hi my friend').toThrowError());
         });
     });
 });
