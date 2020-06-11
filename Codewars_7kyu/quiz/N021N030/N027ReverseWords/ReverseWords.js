@@ -1,6 +1,6 @@
 class ReverseWords {
     static reverse(words) {
-        return 'ih'
+        return [...words].reverse().join('');
     }
 }
 
