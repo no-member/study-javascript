@@ -1,9 +1,6 @@
 class ReverseWords {
     static reverseSentence(words) {
-        if (words === 'hi my friend'){
-            return 'ih ym dneirf';
-        }
-        return [...words].reverse().join('');
+        return words.split(' ').map(this.reverseOneWord).join(' ');
     }
 
     static reverseOneWord(words) {
