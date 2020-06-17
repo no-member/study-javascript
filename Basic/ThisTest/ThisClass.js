@@ -1,15 +1,19 @@
+const log1 = function () {
+    console.log('outside log1 is called')
+};
+
 class ThisClass {
-    log1(message) {
-        console.log(message)
+    log1() {
+        console.log('inside log1 is called')
     }
     log2() {
-
+        this.log1()
+    }
+    log3() {
+        log1()
     }
 }
 
-ThisClass.prototype.log2 = function (new_message) {
-   this.log1(new_message)
-}
-
-const thisClass = new ThisClass
-thisClass.log2("hi")
+const thisClass = new ThisClass;
+thisClass.log2();
+thisClass.log3();
