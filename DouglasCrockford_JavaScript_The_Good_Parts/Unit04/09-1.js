@@ -1,14 +1,14 @@
-var foo = function () {
-    var a = 3;
-    var b = 5;
+const foo = function () {
+    let a = 3;
+    const b = 5;
 
     console.log(`a1: ${a}`);
     console.log(`b1: ${b}`);
     console.log();
 
-    var bar = function() {
-        var b = 7;
-        var c = 11;
+    const bar = function() {
+        const b = 7;
+        const c = 11;
 
         a += b + c;
 
@@ -27,9 +27,3 @@ var foo = function () {
 };
 
 foo();
-console.log('');
-
-
-var bar = 123;
-
-
