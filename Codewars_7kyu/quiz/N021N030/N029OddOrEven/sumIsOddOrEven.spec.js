@@ -1,4 +1,4 @@
-const MyNumberUtils = require('./MyNumberUtils')
+const MyNumberUtils = require('./MyNumberUtils');
 
 describe('edge test', () => {
     describe('with []', () => {
