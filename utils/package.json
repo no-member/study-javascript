@@ -1,0 +1,17 @@
+{
+    "name": "utils",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "",
+    "scripts": {
+        "test": "mocha --require esm"
+    },
+    "author": "shin",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "esm": "^3.2.25",
+        "mocha": "^8.1.3"
+    }
+}
