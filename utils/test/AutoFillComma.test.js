@@ -1,7 +1,5 @@
 import { autoFillComma } from '../src/auto_fill_comma/AutoFillComma.js'
-const chai = require('chai');
-
-var expect = chai.expect;
+import { expect } from 'chai';
 
 describe('autoFillComma', () => {
     context('with 1111', () => {
