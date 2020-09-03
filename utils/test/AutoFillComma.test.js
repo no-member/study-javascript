@@ -37,6 +37,18 @@ describe('autoFillComma', () => {
             expect(autoFillCommaWithString('123,456,789')).to.equal('123,456,789');
         });
     });
+    
+    context('with 123,a56,789', () => {
+        it('return 123,a56,789', () => {
+            expect(autoFillCommaWithString('123,a56,789')).to.equal('123,a56,789');
+        });
+    });
+
+    context('with 123a56789', () => {
+        it('return 123a56789', () => {
+            expect(autoFillCommaWithString('123a56789')).to.equal('123a56789');
+        });
+    });
 });
 
 describe('autoFillCommaWithNumber', () => {
