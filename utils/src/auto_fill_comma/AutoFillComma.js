@@ -1,5 +1,5 @@
-const autoFillComma = function() {
-    return '1,111';
+const autoFillComma = function(stringNumber) {
+    return stringNumber;
 };
 
 export { autoFillComma };
