@@ -2,7 +2,7 @@
 
 const setences = [
     {subject: 'JavaScript', verb: 'is', object:'great'},
-    {subject: 'Elephants', verb: 'are', object: 'large'},
+    {subject: 'Elephants', verb: 'are', object: 'large'}
 ];
 
 function say({subject, verb, object}) {
