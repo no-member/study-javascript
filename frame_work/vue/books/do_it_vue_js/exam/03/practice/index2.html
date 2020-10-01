@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Practice</title>
+</head>
+<body>
+    <div id="app">
+        <child-component v-bind:propsdata="message"></child-component>
+
+        <sibling-component v-bind:hello="anotherMessage"></sibling-component>
+    </div>
+    <script src="js/vendor/vue.js"></script>
+    <script src="js/app2.js"></script>
+</body>
+</html>

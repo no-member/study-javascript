@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue</title>
+</head>
+<body>
+    <div id="app">
+        <router-view name="header"></router-view>
+        <router-view></router-view>
+        <router-view name="footer"></router-view>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.js"></script>
+    <script>
+        const Header = {
+            template: '<div>This is Header</div>'
+        };
+
+        const Body =  {
+            template: '<div>This is Body</div>'
+        };
+        const Footer = {
+            template: '<div>This is Footer</div>'
+        };
+
+        const LoginHeader = {
+            template: '<div>This is LoginHeader</div>'
+        };
+
+        const LoginBody = {
+            template: '<div>This is LoginBody</div>'
+        };
+
+        const LoginFooter = {
+            template: '<div>This is LoginFooter</div>'
+        };
+
+        const router = new VueRouter({
+            routes: [
+                {
+                    path: '/',
+                    components: {
+                        default: Body,
+                        header: Header,
+                        footer: Footer
+                    }
+                },
+                {
+                    path: '/login',
+                    components: {
+                        default: LoginBody,
+                        header: LoginHeader,
+                        footer: LoginFooter
+                    }
+                }
+            ]
+        });
+
+        const app = new Vue({
+            router
+        }).$mount('#app');
+
+    </script>
+</body>
+</html>
