@@ -24,4 +24,16 @@ describe('triangular', () => {
             expect(MyNumberUtils.triangular(3)).toStrictEqual(6);
         });
     });
+
+    describe('with 100', () => {
+        it('return 5050', () => {
+            expect(MyNumberUtils.triangular(100)).toStrictEqual(5050);
+        });
+    });
+
+    describe('with 100000', () => {
+        it('return 5000050000', () => {
+            expect(MyNumberUtils.triangular(100000)).toStrictEqual(5000050000);
+        });
+    });
 });
