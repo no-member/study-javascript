@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+</head>
+<body>
+    <div id="counter">
+        Counter: {{ counter }}
+        <br>
+        <button v-on:click="stopCounter"> Stop Counter </button>
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script>
+        const Counter = {
+            data() {
+                return {
+                    counter: 0
+                }
+            },
+            mounted() {
+                this.timer = setInterval(()=>{
+                    this.counter++
+                }, 50)
+            },
+            methods: {
+                stopCounter: function() {
+                    clearInterval(this.timer)
+                }
+            }
+        }
+
+        Vue.createApp(Counter).mount('#counter')
+    </script>
+</body>
+</html>

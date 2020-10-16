@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two Way Binding</title>
+</head>
+<body>
+  <div id="two-way-binding">
+    <p>{{ message }}</p>
+    <input v-model="message" />
+  </div>
+
+  <script src="https://unpkg.com/vue@next"></script>
+  <script>
+    const TwoWayBinding = {
+      data() {
+        return {
+          message: 'Hello World!'
+        }
+      }
+    }
+
+    Vue.createApp(TwoWayBinding).mount('#two-way-binding')
+  </script>
+</body>
+</html>
