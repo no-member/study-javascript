@@ -1,4 +1,4 @@
-const count = 0;
+let count = 0;
 
 const timer = setInterval(function() {
     console.log(count);
