@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@jest/globals": "^26.5.3",
     "jest": "^25.5.4"
   },
   "dependencies": {
