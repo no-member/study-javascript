@@ -7,16 +7,12 @@ Rectangle.prototype.getArea = function () {
     return this.width * this.height;
 };
 
-const rect = new Rectangle(3, 4);
-console.log(rect.getArea());
-
 const Square = function (width) {
     Rectangle.call(this, width, width);
 };
 
-Square.prototype = new Rectangle();
-
-const sq = new Square(5);
-console.dir(sq);
-console.dir(sq.getArea());
+const Bridge = function() {};
+Bridge.prototype = Rectangle.prototype;
+Square.prototype = new Bridge();
+Object.freeze(Square.prototype);
 
