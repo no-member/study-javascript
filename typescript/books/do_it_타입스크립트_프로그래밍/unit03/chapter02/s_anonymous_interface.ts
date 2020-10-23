@@ -1,0 +1,17 @@
+let ai: {
+    name: string
+    age: number
+    etc?: boolean
+} = {name: 'Jack', age:32}
+
+console.log(ai);
+
+function printMe(me: {name: string, age: number, etc?: boolean}) {
+    console.log(
+        me.etc ?
+            `${me.name} ${me.age} ${me.etc}` :
+            `${me.name} ${me.age}`
+    );
+};
+
+printMe(ai);
