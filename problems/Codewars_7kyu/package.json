@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@jest/globals": "^26.5.3",
-    "jest": "^25.5.4"
+    "jasmine": "^3.6.2",
+    "jest": "^25.5.4",
+    "mocha": "^8.2.0"
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "lodash": "^4.17.19"
   },
   "description": ""
