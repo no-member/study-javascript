@@ -1,6 +1,7 @@
 class NumberOfPeopleInTheBus {
   // static countPassenger(passengers) {
-  //     return passengers.map(p => this.countPassengerOneBusStop(p)).reduce((x, y) => x + y, 0);
+  //     return passengers.map(p => this.countPassengerOneBusStop(p))
+  //         .reduce((x, y) => x + y, 0);
   // }
   //
   // static countPassengerOneBusStop(passengers) {

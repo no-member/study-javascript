@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.6.6",
     "lodash": "^4.17.19"
   },
   "description": ""
