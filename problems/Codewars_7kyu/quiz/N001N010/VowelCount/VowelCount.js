@@ -21,9 +21,9 @@
 //     return false;
 // };
 
-const vowelCount = function (str) {
-    const charList = [...str];
-    return charList.filter(c=> "aeiouAEIOU".includes(c)).length;
+const vowelCount = function(str) {
+  const charList = [...str];
+  return charList.filter((c)=> 'aeiouAEIOU'.includes(c)).length;
 };
 
 module.exports = vowelCount;

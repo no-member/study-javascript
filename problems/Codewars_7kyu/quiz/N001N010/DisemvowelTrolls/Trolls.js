@@ -1,6 +1,6 @@
-const disemvowel = function (str) {
-    const answer = str.replace(/[aeiouAEIOU]/g, '');
-    return answer;
+const disemvowel = function(str) {
+  const answer = str.replace(/[aeiouAEIOU]/g, '');
+  return answer;
 };
 
 module.exports = disemvowel;
