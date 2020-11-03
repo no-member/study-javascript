@@ -6,6 +6,6 @@ function countSeconds(howMany) {
             }, currentI * 1000);
         }(i));
     }
-};
+}
 
 countSeconds(3);

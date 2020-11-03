@@ -9,7 +9,7 @@ var person = {
 };
 
 function create_object(o) {
-    function F() {};
+    function F() {}
     F.prototype = o;
     return new F();
 }

@@ -1,6 +1,6 @@
 function calculate(a, b, c) {
     return a * b + c;
-};
+}
 
 function curry(func) {
     const args = Array.prototype.slice.call(arguments, 1);

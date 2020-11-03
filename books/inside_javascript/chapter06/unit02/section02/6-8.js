@@ -16,7 +16,7 @@ Person.method('getName', function() {
 
 function Student() {}
 
-function F() {};
+function F() {}
 F.prototype = Person.prototype;
 Student.prototype = new F();
 Student.prototype.constructor = Student;

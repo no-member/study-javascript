@@ -17,7 +17,7 @@ function reduce(func, arr, memo) {
     }
 
     return accum;
-};
+}
 
 
 console.log(reduce(sum, arr, 0));

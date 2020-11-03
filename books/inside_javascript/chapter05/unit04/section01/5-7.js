@@ -4,7 +4,7 @@ function outerFunc() {
         console.log(x);
     };
     return innerFunc;
-};
+}
 
 var inner = outerFunc();
 inner();

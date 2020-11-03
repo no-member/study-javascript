@@ -1,6 +1,6 @@
 function Person(name) {
     this.name = name;
-};
+}
 
 const foo = new Person('foo');
 

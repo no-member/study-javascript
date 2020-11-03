@@ -3,7 +3,7 @@ function callLater(obj, a, b) {
         obj['sum'] = a + b;
         console.log(obj['sum']);
     });
-};
+}
 
 var sumObj = {
     sum : 0

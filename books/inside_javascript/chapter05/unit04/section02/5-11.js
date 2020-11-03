@@ -14,7 +14,7 @@ function getCompletedStr(name, city, age) {
     buffAr[5] = age;
 
     return buffAr.join('');
-};
+}
 
 var str = getCompletedStr('zzoon', 'seoul', 16);
 console.log(str);

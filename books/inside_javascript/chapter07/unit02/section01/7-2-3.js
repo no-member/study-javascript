@@ -7,5 +7,5 @@ function reduce(func, arr, memo) {
     }
 
     return accum;
-};
+}
 

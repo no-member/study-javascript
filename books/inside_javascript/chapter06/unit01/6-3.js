@@ -4,7 +4,7 @@ Function.prototype.method = function(name, func) {
 
 function Person(name) {
     this.name = name;
-};
+}
 
 Person.method('setName', function(name) {
     this.name = name;

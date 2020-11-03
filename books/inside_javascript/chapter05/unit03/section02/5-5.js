@@ -5,7 +5,7 @@ function printFunc() {
 
     function printValue() {
         return value;
-    };
+    }
 
     console.log(printValue());
 }

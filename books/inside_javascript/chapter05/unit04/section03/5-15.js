@@ -8,7 +8,7 @@ function func() {
             console.log(-x);
         }
     }
-};
+}
 
 var exam = func();
 exam.func1();

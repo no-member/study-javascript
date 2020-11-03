@@ -4,6 +4,6 @@ function countSeconds(howMany) {
             console.log(i);
         }, i * 1000);
     }
-};
+}
 
 countSeconds(3);

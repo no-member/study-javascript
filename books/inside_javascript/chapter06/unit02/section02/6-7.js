@@ -1,6 +1,6 @@
 function Person(arg) {
     this.name = arg;
-};
+}
 
 Person.prototype.setName = function(name) {
     this.name = name;

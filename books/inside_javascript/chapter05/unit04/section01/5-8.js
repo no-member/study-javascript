@@ -5,7 +5,7 @@ function outerFunc(arg1, arg2) {
     }
 
     return innerFunc;
-};
+}
 
 var exam1 = outerFunc(2, 4);
 exam1(2);
