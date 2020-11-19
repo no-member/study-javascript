@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js App</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="app">
+    <ul>
+      <li v-for="(monster, index) in monster_list" v-bind:key="monster.id" v-if="monster.hp">
+        ID.{{ monster.id }} {{ monster.name }} HP.{{ monster.hp }}
+        <span v-if="monster.hp < 50">큰 피해....!</span>
+        <button v-on:click="doAttack(index)">공격하기</button>
+      </li>
+    </ul>
+
+  </div>
+  <script
+      src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

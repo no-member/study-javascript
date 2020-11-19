@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js App</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="app">
+    <div v-if="type === 'A'">
+      type은 A
+    </div>
+    <div v-else-if="type === 'B'">
+      type은 B
+    </div>
+    <div v-else>
+      모든 조건을 만족하지 않는 경우
+    </div>
+
+  </div>
+  <script
+      src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

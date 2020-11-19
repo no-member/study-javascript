@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js App</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="app">
+    <label>
+      이름:
+      <input v-model="monster_name">
+    </label>
+    <button v-on:click="addMonster">몬스터 추가하기</button>
+    <br>
+
+    <ul>
+      <li v-for="monster in monster_list" v-bind:key="monster.id" >
+        ID.{{ monster.id }} {{ monster.name }} HP.{{ monster.hp }}
+      </li>
+    </ul>
+  </div>
+  <script
+      src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
