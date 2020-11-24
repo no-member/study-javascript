@@ -7,8 +7,17 @@
 </head>
 <body>
   <div id="app">
-    <span v-html="message"></span>
+    <div v-on:click.right="handler">
+      example1
+    </div>
+
+    <br>
+
+    <div v-on:click.right.prevent="handler">
+      example2
+    </div>
   </div>
+
   <script
       src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
   <script src="main.js"></script>

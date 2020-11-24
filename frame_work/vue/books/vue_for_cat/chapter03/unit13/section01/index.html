@@ -6,9 +6,12 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
+
   <div id="app">
-    <span v-html="message"></span>
+    <button v-on:click="handleClick">클릭</button>
+    <button @click="handleClick">클릭</button>
   </div>
+
   <script
       src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
   <script src="main.js"></script>

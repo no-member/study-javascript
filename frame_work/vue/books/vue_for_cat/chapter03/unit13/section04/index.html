@@ -7,8 +7,21 @@
 </head>
 <body>
   <div id="app">
-    <span v-html="message"></span>
+    <div v-on:scroll="handlerScroll">
+      콘텐츠
+    </div>
+    <br>
+
+    <div v-on:mousewheel="handlerWheel">
+      콘텐츠
+    </div>
+    <br>
+
+    <div v-on:dragstart="handleDrag" draggable="true">
+      드래그 가능
+    </div>
   </div>
+
   <script
       src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
   <script src="main.js"></script>
