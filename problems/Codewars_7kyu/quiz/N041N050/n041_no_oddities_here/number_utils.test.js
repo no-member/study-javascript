@@ -15,5 +15,11 @@ describe('number_utils', () => {
                 expect(selectOdd([1, 3])).to.eql([]);
             });
         });
+
+        context('[2, 2, 4, 3]를 입력 받았을 경우', () => {
+            it('Return [2, 2, 4](빈 배열)을 반환 할 것', () => {
+                expect(selectOdd([2, 2, 4, 3])).to.eql([2, 2, 4]);
+            });
+        });
     });
 })
