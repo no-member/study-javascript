@@ -1,21 +1,43 @@
+const chai = require('chai');
+const expect = chai.expect;
 const dnaStrand = require('./DNAStrand');
 
-test('dnaStrand("TTTT")는 "AAAA"를 반환함', () => {
-  expect(dnaStrand('TTTT')).toBe('AAAA');
-});
+describe('DNAStrand', () => {
+    describe('#dnaStrand', () => {
+        context('TTTT를 입력받았을 경우', () => {
+            it('AAAA를 반환한다.', () => {
+                expect(dnaStrand('TTTT')).to.equal('AAAA');
+            });
+        });
 
-test('dnaStrand("AAAA")는 "TTTT"를 반환함', () => {
-  expect(dnaStrand('AAAA')).toBe('TTTT');
-});
+        context('AAAA를 입력받았을 경우', () => {
+            it('TTTT를 반환한다.', () => {
+                expect(dnaStrand('AAAA')).to.equal('TTTT');
+            });
+        });
 
-test('dnaStrand("CCCC")는 "GGGG"를 반환함', () => {
-  expect(dnaStrand('CCCC')).toBe('GGGG');
-});
+        context('CCCC를 입력받았을 경우', () => {
+            it('GGGG를 반환한다.', () => {
+                expect(dnaStrand('CCCC')).to.equal('GGGG');
+            });
+        });
 
-test('dnaStrand("GGGG")는 "CCCC"를 반환함', () => {
-  expect(dnaStrand('GGGG')).toBe('CCCC');
-});
+        context('GGGG 입력받았을 경우', () => {
+            it('CCCC를 반환한다.', () => {
+                expect(dnaStrand('GGGG')).to.equal('CCCC');
+            });
+        });
 
-test('dnaStrand("ATTGC")는 "TAACG"를 반환함', () => {
-  expect(dnaStrand('ATTGC')).toBe('TAACG');
+        context('ATTGC를 입력받았을 경우', () => {
+            it('TAACG를 반환한다.', () => {
+                expect(dnaStrand('ATTGC')).to.equal('TAACG');
+            });
+        });
+
+        context('ATGC 이외의 문자를 입력받았을 경우', () => {
+            it('오류를 발생 시킨다.', () => {
+                expect(() => dnaStrand('AQQQ')).to.throw(TypeError);
+            });
+        });
+    });
 });
