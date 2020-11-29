@@ -12,9 +12,9 @@
     "@jest/globals": "^26.5.3",
     "eslint": "^7.12.1",
     "eslint-config-google": "^0.14.0",
-    "jasmine": "^3.6.2",
-    "jest": "^25.5.4",
-    "mocha": "^8.2.0"
+    "jasmine": "^3.6.3",
+    "jest": "^26.6.3",
+    "mocha": "^8.2.1"
   },
   "dependencies": {
     "chai": "^4.2.0",
