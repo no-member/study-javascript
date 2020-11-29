@@ -11,11 +11,9 @@ const basicOperation = function (operation, num1, num2) {
                 throw new Error('Invalid dividend ' + num2);
             }
             return num1 / num2;
+        default:
+            return 0;
     }
-    return 0;
-
-    // Don't use eval function
-    // return eval(value1 + operation + value2);
 };
 
 module.exports = basicOperation;
