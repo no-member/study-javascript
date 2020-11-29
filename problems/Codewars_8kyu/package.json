@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^25.2.4"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setupTestFramework"
   }
 }
