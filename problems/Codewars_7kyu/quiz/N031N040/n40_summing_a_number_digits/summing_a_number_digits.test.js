@@ -9,15 +9,15 @@ describe('summing_a_number_digits', () => {
     });
   });
 
-  // context('With (13)', () => {
-  //   it('Return 4', () => {
-  //     expect(summing_a_number_digits(13)).to.equal(4);
-  //   });
-  // });
-  //
-  // context('With (-13)', () => {
-  //   it('Return 4', () => {
-  //     expect(summing_a_number_digits(-13)).to.equal(4);
-  //   });
-  // });
+  context('With (13)', () => {
+    it('Return 4', () => {
+      expect(summing_a_number_digits(13)).to.equal(4);
+    });
+  });
+
+  context('With (-13)', () => {
+    it('Return 4', () => {
+      expect(summing_a_number_digits(-13)).to.equal(4);
+    });
+  });
 });
