@@ -82,7 +82,6 @@ node_modules/type-fest/source/tsconfig-json.d.ts
 node_modules/verror/node_modules/
 node_modules/which/bin/which
 node_modules/yargs/lib/
-.eslintrc.yml
 node_modules/.bin/
 node_modules/@babel/
 node_modules/@bcoe/
