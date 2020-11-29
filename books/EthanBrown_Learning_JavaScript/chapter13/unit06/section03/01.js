@@ -1,0 +1,22 @@
+const sum = function(arr, f) {
+    if(typeof f != 'function') {
+        f = x => x;
+    }
+
+    return arr.reduce((a, x) => a += f(x), 0);
+};
+
+// function sumOfSquares(arr) {
+//     return sum(arr, x => x * x);
+// }
+
+function newSummer(f) {
+    return arr => sum(arr, f);
+}
+
+const sumOfSquares = newSummer(x => x * x);
+
+const sumOfCubes = newSummer(x => Math.pow(x, 3));
+
+console.log(sumOfSquares([1, 2, 3]));
+console.log(sumOfCubes([1, 2, 3]));
