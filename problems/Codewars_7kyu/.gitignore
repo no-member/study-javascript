@@ -570,3 +570,4 @@ node_modules/yargs-parser/
 node_modules/yargs-unparser/
 node_modules/yargs/
 out/
+*.swp
