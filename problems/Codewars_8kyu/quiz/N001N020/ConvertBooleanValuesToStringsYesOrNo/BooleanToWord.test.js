@@ -1,9 +1,15 @@
 const boolToWord = require('./BooleanToWord');
 
-test('boolToWord(true) is Yes', () => {
-    expect(boolToWord(true)).toBe('Yes');
-});
+describe('#boolToWord', () => {
+    context('(true)는', () => {
+        it('"Yes"를 반환한다.', () => {
+            expect(boolToWord(true)).toBe('Yes');
+        });
+    });
 
-test('boolToWord(false) is No', () => {
-    expect(boolToWord(false)).toBe('No');
+    context('(false)는', () => {
+        it('"No"를 반환한다.', () => {
+            expect(boolToWord(false)).toBe('No');
+        });
+    });
 });
