@@ -4,15 +4,15 @@ const dnaStrand = dna => {
     }
 
     return dna.replace(/./g, c => {
-        return dnaStrand.pairs[c]
+        return dnaPairs.get(c)
     });
 };
 
-dnaStrand.pairs = {
-    A: 'T',
-    T: 'A',
-    C: 'G',
-    G: 'C',
-};
+const dnaPairs = new Map();
+dnaPairs
+    .set('A', 'T')
+    .set('T', 'A')
+    .set('C', 'G')
+    .set('G', 'C');
 
 module.exports = dnaStrand;
