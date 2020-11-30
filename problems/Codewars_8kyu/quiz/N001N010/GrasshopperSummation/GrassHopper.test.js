@@ -1,17 +1,23 @@
 const summation = require('./GrassHopper');
 
-test('summation(1)은 1를 반환함',() =>{
-    expect(summation(1)).toBe(1);
-});
+describe('GrassHopper', () => {
+    describe('#summation', () => {
+        context('(1)은 ', () => {
+            it('1를 반환함', () => {
+                expect(summation(1)).toBe(1);
+            });
+        });
 
-test('summation(3)은 6를 반환함',() =>{
-    expect(summation(3)).toBe(6);
-});
+        context('(10)은', () => {
+            test('55를 반환함', () => {
+                expect(summation(10)).toBe(55);
+            });
+        });
 
-test('summation(10)은 55를 반환함',() =>{
-    expect(summation(10)).toBe(55);
-});
-
-test('summation(0)은 0를 반환함',() =>{
-    expect(summation(0)).toBe(0);
+        context('(0)은', () => {
+            test('0를 반환함', () => {
+                expect(summation(0)).toBe(0);
+            });
+        });
+    });
 });
