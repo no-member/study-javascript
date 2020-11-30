@@ -3,7 +3,7 @@
  * @param {string} stringNumber
  * @return {number} 입력 받은 숫자 string을 number형으로 변환 시킨 값
  */
-const stringToNumber = function (stringNumber) {
+const stringToNumber = (stringNumber) => {
     try {
         return parseInt(stringNumber);
     } catch (error) {

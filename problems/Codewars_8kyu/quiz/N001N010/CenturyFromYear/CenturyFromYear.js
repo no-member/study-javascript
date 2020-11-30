@@ -3,7 +3,7 @@
  * @param {number} years
  * @return {number} 세기
  */
-const yearToCentury = function (years) {
+const yearToCentury = (years) => {
     return Math.ceil(years / 100);
 };
 

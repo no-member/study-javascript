@@ -5,7 +5,7 @@
  * @param {number} num2
  * @return {number} 첫번째 param의 +, -, *, /에 따라 계산된 결과 값
  */
-const basicOperation = function (operation, num1, num2) {
+const basicOperation = (operation, num1, num2) => {
     switch (operation) {
         case '+':
             return num1 + num2;

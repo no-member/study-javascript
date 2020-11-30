@@ -3,7 +3,7 @@
  * @param {boolean} bool
  * @return {String} 'Yes' or 'No'
  */
-const boolToWord = function (bool) {
+const boolToWord = (bool) => {
     return bool ? 'Yes' : 'No';
 };
 

@@ -3,7 +3,7 @@
  * @param {array} number_array
  * @return {number} 주어진 배열에서 가장 작은 숫자
  */
-const findSmallest = function (number_array) {
+const findSmallest = number_array => {
     return Math.min(...number_array);
 };
 

@@ -3,7 +3,7 @@
  * @param {number} num
  * @return {string} 입력 받은 숫자을 문자열로 변경한 것
  */
-const numberToString = function (num) {
+const numberToString = (num) => {
     return num.toString();
 };
 
