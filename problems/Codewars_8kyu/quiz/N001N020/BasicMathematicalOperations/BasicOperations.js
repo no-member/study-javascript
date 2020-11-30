@@ -3,7 +3,7 @@
  * @param {string} operation - '+', '-', '*', '/' 이외를 입력 받은 경우 0을 반환
  * @param {number} num1
  * @param {number} num2
- * @return {number}
+ * @return {number} 첫번째 param의 +, -, *, /에 따라 계산된 결과 값
  */
 const basicOperation = function (operation, num1, num2) {
     switch (operation) {
