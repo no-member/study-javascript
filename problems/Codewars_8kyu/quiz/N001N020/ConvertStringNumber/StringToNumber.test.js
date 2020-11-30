@@ -1,43 +1,40 @@
 const stringToNumber = require('./StringToNumber');
 
-describe('양수 테스트', ()=>{
-    test('stringToNumber("1")은 1을 반환함',() =>{
-        expect(stringToNumber('1')).toBe(1);
-    });
+describe('StringToNumber', () => {
+    describe('#stringToNumber', () => {
+        context('양수 ("3")은', () => {
+            it('3 반환함', () => {
+                expect(stringToNumber('3')).toBe(3);
+            });
+        });
+        context('양수 ("123123")은', () => {
+            it('123123을 반환함', () => {
+                expect(stringToNumber('123123')).toBe(123123);
+            });
+        });
 
-    test('stringToNumber("30")은 30을 반환함',() =>{
-        expect(stringToNumber('30')).toBe(30);
-    });
+        context('("0")은', () => {
+            it('0을 반환함', () => {
+                expect(stringToNumber('0')).toBe(0);
+            });
+        });
 
-    test('stringToNumber("1213")은 1213 반환함',() =>{
-        expect(stringToNumber('1213')).toBe(1213);
-    });
+        context('음수 ("-1213")은', () => {
+            it('-1213 반환함', () => {
+                expect(stringToNumber('-1213')).toBe(-1213);
+            });
+        });
 
-    test('stringToNumber("123123")은 123123을 반환함',() =>{
-        expect(stringToNumber('123123')).toBe(123123);
-    });
-});
+        context('음수 ("-123123")은', () => {
+            it('-123123을 반환함', () => {
+                expect(stringToNumber('-123123')).toBe(-123123);
+            });
+        });
 
-describe('0일 경우 테스트', ()=> {
-    test('stringToNumber("0")은 0을 반환함',() =>{
-        expect(stringToNumber('0')).toBe(0);
-    });
-});
-
-describe('음수일 경우 테스트', ()=> {
-    test('stringToNumber("-1")은 -1을 반환함',() =>{
-        expect(stringToNumber('-1')).toBe(-1);
-    });
-
-    test('stringToNumber("-30")은 -30을 반환함',() =>{
-        expect(stringToNumber('-30')).toBe(-30);
-    });
-
-    test('stringToNumber("-1213")은 -1213 반환함',() =>{
-        expect(stringToNumber('-1213')).toBe(-1213);
-    });
-
-    test('stringToNumber("-123123")은 -123123을 반환함',() =>{
-        expect(stringToNumber('-123123')).toBe(-123123);
+        context('숫자가 아닌 값을 입력 받았을 경우', () => {
+            it('에러를 반환함', () => {
+                expect(() => stringToNumber('fail').toThrow());
+            });
+        });
     });
 });
