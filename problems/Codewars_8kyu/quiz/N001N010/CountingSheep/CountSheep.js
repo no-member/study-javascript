@@ -1,19 +1,8 @@
-// const countSheep = list => {
-//     let counter = 0;
-//
-//     if (list == null) {
-//         return counter;
-//     }
-//
-//     for (const aBoolean of list) {
-//         if (aBoolean) {
-//             counter++;
-//         }
-//     }
-//
-//     return counter;
-// };
-
+/**
+ * 주어진 리스트에서 true의 개수를 반환하는 함수
+ * @param {array} list
+ * @return {number} 주어진 리스트에서 true의 개수
+ */
 const countSheep = list => {
     if (list === null) {
         return 0;

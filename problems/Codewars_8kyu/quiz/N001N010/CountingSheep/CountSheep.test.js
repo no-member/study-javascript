@@ -1,26 +1,31 @@
 const countSheep = require('./CountSheep');
 
-test('countSheep(list)은 2를 반환함',() =>{
-    const list = [true, true, false ];
-    expect(countSheep(list)).toBe(2);
-});
+describe('CountSheep', () => {
+    context('([true, true, false])는', () => {
+        it('2를 반환함', () => {
+            const list = [true, true, false];
+            expect(countSheep(list)).toBe(2);
+        });
+    });
 
-test('countSheep(list)은 3를 반환함',() =>{
-    const list = [true, true, false, false, true ];
-    expect(countSheep(list)).toBe(3);
-});
+    context('([true, true, false, false, true])는', () => {
+        it('3를 반환함', () => {
+            const list = [true, true, false, false, true];
+            expect(countSheep(list)).toBe(3);
+        });
+    });
 
-test('countSheep(list)은 1를 반환함',() =>{
-    const list = [false, true, false, false ];
-    expect(countSheep(list)).toBe(1);
-});
+    context('([null, true, false, false])는', () => {
+        it('1을 반환함', () => {
+            const list = [null, true, false, false];
+            expect(countSheep(list)).toBe(1);
+        });
+    });
 
-test('countSheep null test',() =>{
-    const list = [null, true, false, false ];
-    expect(countSheep(list)).toBe(1);
-});
-
-test('countSheep null test 2',() =>{
-    const list = null;
-    expect(countSheep(list)).toBe(0);
+    context('(null)의 경우', () => {
+        it('0을 반환함', () => {
+            const list = null;
+            expect(countSheep(list)).toBe(0);
+        });
+    });
 });
