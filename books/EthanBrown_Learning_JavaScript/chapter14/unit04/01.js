@@ -42,4 +42,4 @@ function* theFutureIsNow() {
     yield nfcall(fs.writeFile, 'd.txt', dataA + dataB + dataC);
 }
 
-grun(theFutureIsNow());
+grun(theFutureIsNow);
