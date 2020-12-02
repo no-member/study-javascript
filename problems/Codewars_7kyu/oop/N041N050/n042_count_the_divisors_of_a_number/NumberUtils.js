@@ -1,5 +1,8 @@
 /** 1부터 자기 자신까지의 값에서 나누어 떨어지는 값의 개수를 구하는 클래스 */
 class NumberUtils {
+  /**
+   * @param {number} targetNumber
+   */
   constructor(targetNumber) {
     this.targetNumber = targetNumber;
     this.targetNumberRange = [];
@@ -9,7 +12,7 @@ class NumberUtils {
   /**
    * @return {number}
    */
-  getDivisorsCount = function() {
+  getDivisorsCount = () => {
     for (let i = 0; i < this.targetNumber; i++) {
       this.targetNumberRange.push(i + 1);
     }
