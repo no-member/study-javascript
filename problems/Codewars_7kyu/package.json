@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@jest/globals": "^26.5.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.12.1",
     "eslint-config-google": "^0.14.0",
     "jasmine": "^3.6.3",
