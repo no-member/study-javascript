@@ -30,7 +30,7 @@ class NumberUtils {
     return this.#divisorsCount;
   };
 
-  initCountAndRange() {
+  initCountAndRange = () => {
     this.#targetNumberRange = [];
     this.#divisorsCount = 0;
   };
