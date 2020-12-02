@@ -17,5 +17,13 @@ describe('NumberUtils', () => {
         expect(numberUtils.getDivisorsCount()).to.eql(3);
       });
     });
+
+    context('getDivisorsCount를 2번 이상 사용 한 경우에도', () => {
+      it('동일한 값을 반환 할 것', () => {
+        const numberUtils = new NumberUtils(4);
+        numberUtils.getDivisorsCount();
+        expect(numberUtils.getDivisorsCount()).to.eql(3);
+      });
+    });
   });
 });

@@ -5,14 +5,14 @@ class NumberUtils {
    */
   constructor(targetNumber) {
     this.targetNumber = targetNumber;
-    this.targetNumberRange = [];
-    this.divisorsCount = 0;
+    this.initCountAndRange();
   }
 
   /**
    * @return {number}
    */
   getDivisorsCount = () => {
+    this.initCountAndRange();
     for (let i = 0; i < this.targetNumber; i++) {
       this.targetNumberRange.push(i + 1);
     }
@@ -25,6 +25,11 @@ class NumberUtils {
 
     return this.divisorsCount;
   };
+
+  initCountAndRange = () => {
+    this.targetNumberRange = [];
+    this.divisorsCount = 0;
+  }
 }
 
 module.exports = NumberUtils;
