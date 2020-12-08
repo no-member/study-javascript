@@ -5,10 +5,11 @@ class NumberUtils {
    * @return {number}
    */
   static getDivisorsCount = (targetNumber) => {
-    const oneToTargetNumber = Array(targetNumber)
+    const oneToTargetNumber = Array(parseInt(targetNumber / 2))
         .fill(1).map((one, index) => one + index);
+
     return oneToTargetNumber
-        .filter((element) => targetNumber % element === 0).length;
+        .filter((element) => targetNumber % element === 0).length + 1;
   };
 }
 
