@@ -10,15 +10,9 @@ describe('NumberUtils', () => {
       });
     });
 
-    context('(4)를 입력 받았을 경우', () => {
-      it('3를 반환 할 것', () => {
-        expect(NumberUtils.getDivisorsCount(4)).to.eql(3);
-      });
-    });
-
-    context('getDivisorsCount를 2번 이상 사용 한 경우에도', () => {
-      it('동일한 값을 반환 할 것', () => {
-        expect(NumberUtils.getDivisorsCount(4)).to.eql(3);
+    context('(500000)를 입력 받았을 경우', () => {
+      it('42를 반환 할 것', () => {
+        expect(NumberUtils.getDivisorsCount(500000)).to.eql(42);
       });
     });
   });
