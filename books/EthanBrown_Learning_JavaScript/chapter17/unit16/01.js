@@ -9,7 +9,24 @@ function sanitizeATag(aTag) {
 
   const attributes = parts[1].split(/\s+/);
 
-  return '<a ' + attributes
+  return '<a ' + attributes .filter(attr => /^(?:class|id|href)[\s=]/i.test(attr))
+          .join(' ') + '>' + parts[2] + '</a>';
 }
 
-sanitizeATag(html);
+
+// html.match(/<a .*?>(.*?)<\/a>/ig);
+
+// html.replace(/<a .*?>(.*?)<\/a>/ig, function(m, g1, offset) {
+//   console.log(`<a> ${m} tag found at ${offset}. contents: ${g1}`);
+// });
+
+console.log(
+  html.replace(/<a .*?<\/a>/ig, function(m) {
+    return sanitizeATag(m);
+  })
+);
+console.log();
+
+console.log(
+  html.replace(/<a .*?<\/a>/ig, sanitizeATag)
+);
