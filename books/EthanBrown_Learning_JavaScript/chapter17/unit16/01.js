@@ -6,10 +6,14 @@ const html =
 
 function sanitizeATag(aTag) {
   const parts = aTag.match(/<a\s+(.*?)>(.*?)<\/a>/i);
+  console.log(parts);
+  console.log();
 
   const attributes = parts[1].split(/\s+/);
+  console.log(attributes);
+  console.log();
 
-  return '<a ' + attributes
+  return '<a ' + attributes.filter(attr => /^(?:class|id|href)[\s=]/i.test(attr));
 }
 
 sanitizeATag(html);
