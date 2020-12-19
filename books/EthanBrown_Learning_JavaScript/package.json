@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/node": "^7.12.10",
     "lodash": "^4.17.19",
     "moment-timezone": "^0.5.32",
     "underscore": "^1.10.2"
