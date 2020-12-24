@@ -1,3 +1,5 @@
 node_modules
 .swap
 .idea
+package-lock.json
+yarn.lock
