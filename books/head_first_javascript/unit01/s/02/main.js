@@ -1,0 +1,6 @@
+let scoops = 5;
+while (scoops > 0) {
+  document.write("한 숟가락 더!<br>");
+  scoops = scoops - 1;
+}
+document.write("아이스크림 없는 인생은 인생이 아닙니다.")
