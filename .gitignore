@@ -1,4 +1,3 @@
 .idea
 *.swap
 .DS_Store
-*/node_modules/*
