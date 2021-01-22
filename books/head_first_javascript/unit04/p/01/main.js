@@ -7,12 +7,16 @@ const bubbleScores =
     41, 53, 55, 61, 51, 44];
 
 const getMaxScore = function(scores) {
-  return scores.length;
+  return Math.max(...scores);
+};
+
+const getScoreLength = function(scores) {
+  return bubbleScores.length;
 };
 
 const getMaxScoreIndex = function(scores) {
   const maxScore = getMaxScore(scores);
-  const maxScoreIndexs = [];
+  return scores.reduce((a, e, i) => (e === maxScore) ? a.concat(i) : a, []);
 };
 
 const showResult = function (scores) {
@@ -21,8 +25,9 @@ const showResult = function (scores) {
         console.log(`비눗방울 용액 #${i} 점수 : ${point}`));
 
     console.log();
-    console.log(`비눗방울 실험 횟수 : ${getMaxScore(scores)}`)
-    console.log(`최고 빗방울 점수 : ${Math.max(...scores)}`)
+    console.log(`비눗방울 실험 횟수 : ${getScoreLength(scores)}`);
+    console.log(`최고 빗방울 점수 : ${getMaxScore(scores)}`);
+    console.log(getMaxScoreIndex(scores));
 }
 
 showResult(bubbleScores)
